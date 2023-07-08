@@ -1,4 +1,4 @@
-﻿Log file open, 07/08/23 21:07:39
+﻿Log file open, 07/08/23 22:37:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrAward
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(806793292) SRandInit(806793292).
+LogInit: Display: RandInit(-1181342699) SRandInit(-1181342699).
 LogTaskGraph: Started task graph with 5 named threads and 38 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.403612
+LogStats: Stats thread started at 0.402846
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,415 +113,373 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.07.08-12.07.39:991][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.08-12.07.39:991][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.07.08-12.07.40:000][  0]LogInit: Computer: DESKTOP-DFBAQQ3
-[2023.07.08-12.07.40:000][  0]LogInit: User: 81901
-[2023.07.08-12.07.40:000][  0]LogInit: CPU Page size=4096, Cores=12
-[2023.07.08-12.07.40:000][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.07.08-12.07.40:001][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2023.07.08-12.07.40:001][  0]LogMemory: Platform Memory Stats for Windows
-[2023.07.08-12.07.40:001][  0]LogMemory: Process Physical Memory: 285.82 MB used, 285.83 MB peak
-[2023.07.08-12.07.40:001][  0]LogMemory: Process Virtual Memory: 284.38 MB used, 284.38 MB peak
-[2023.07.08-12.07.40:001][  0]LogMemory: Physical Memory: 8805.26 MB used,  23888.64 MB free, 32693.90 MB total
-[2023.07.08-12.07.40:001][  0]LogMemory: Virtual Memory: 4816.40 MB used,  23888.64 MB free, 134217728.00 MB total
-[2023.07.08-12.07.40:152][  0]LogInit: Using OS detected language (ja-JP).
-[2023.07.08-12.07.40:152][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.07.08-12.07.40:157][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.07.08-12.07.40:543][  0]LogD3D11RHI: D3D11 adapters:
-[2023.07.08-12.07.40:668][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
-[2023.07.08-12.07.40:668][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.07.08-12.07.40:671][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.07.08-12.07.40:671][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.07.08-12.07.40:671][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.07.08-12.07.40:677][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.07.08-12.07.40:677][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
-[2023.07.08-12.07.40:677][  0]LogWindows: EnumDisplayDevices:
-[2023.07.08-12.07.40:677][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
-[2023.07.08-12.07.40:677][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
-[2023.07.08-12.07.40:677][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.07.08-12.07.40:678][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.07.08-12.07.40:678][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.07.08-12.07.40:678][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
-[2023.07.08-12.07.40:678][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.07.08-12.07.40:678][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.07.08-12.07.40:678][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.07.08-12.07.40:761][  0]LogD3D11RHI: Async texture creation enabled
-[2023.07.08-12.07.40:775][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.07.08-12.07.40:779][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
-[2023.07.08-12.07.40:779][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/4524/).
-[2023.07.08-12.07.40:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/0B56F09C4937B7D7ECC60DB94000D9FB/'.
-[2023.07.08-12.07.40:779][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.07.08-12.07.41:624][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.07.08-12.07.41:662][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.07.08-12.07.41:700][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.07.08-12.07.41:740][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.07.08-12.07.41:779][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.07.08-12.07.41:817][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.07.08-12.07.41:854][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.07.08-12.07.41:893][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.07.08-12.07.41:926][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.07.08-12.07.41:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.07.08-12.07.42:000][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.07.08-12.07.42:037][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.07.08-12.07.42:074][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.07.08-12.07.42:112][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.07.08-12.07.42:149][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.07.08-12.07.42:224][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.07.08-12.07.42:224][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.07.08-12.07.42:252][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.07.08-12.07.42:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.07.08-12.07.42:350][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.07.08-12.07.42:387][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.07.08-12.07.42:424][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.07.08-12.07.42:460][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.07.08-12.07.42:498][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.07.08-12.07.42:498][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.07.08-12.07.42:853][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: Loaded boot cache 0.05s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.07.08-12.07.42:907][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.07.08-12.07.42:923][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.07.08-12.07.42:935][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.07.08-12.07.42:943][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.07.08-12.07.42:943][  0]LogSlate: Using Freetype 2.6.0
-[2023.07.08-12.07.42:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.08-12.07.42:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.08-12.07.43:148][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2023.07.08-12.07.43:241][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.08-12.07.43:332][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.07.08-12.07.43:543][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.07.08-12.07.43:572][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.07.08-12.07.43:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.07.08-12.07.43:572][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.07.08-12.07.43:572][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.07.08-12.07.43:572][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.07.08-12.07.43:801][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
-[2023.07.08-12.07.43:951][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.037494 seconds
-[2023.07.08-12.07.43:956][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2023.07.08-12.07.43:956][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2023.07.08-12.07.43:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.07.08-12.07.44:002][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.07.08-12.07.45:822][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.07.08-12.07.45:854][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.07.08-12.07.46:321][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.07.08-12.07.46:597][  0]SourceControl: ソースコントロールは無効です
-[2023.07.08-12.07.46:597][  0]SourceControl: ソースコントロールは無効です
-[2023.07.08-12.07.46:631][  0]SourceControl: ソースコントロールは無効です
-[2023.07.08-12.07.46:665][  0]SourceControl: ソースコントロールは無効です
-[2023.07.08-12.07.47:084][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.07.08-12.07.47:259][  0]LogOcInput: OculusInput pre-init called
-[2023.07.08-12.07.47:445][  0]LogEngine: Initializing Engine...
-[2023.07.08-12.07.47:447][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.07.08-12.07.47:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.07.08-12.07.47:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.07.08-12.07.47:670][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.07.08-12.07.47:725][  0]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.08-12.07.47:739][  0]LogInit: FAudioDevice initialized.
-[2023.07.08-12.07.47:820][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.08-12.07.47:831][  0]LogInit: Texture streaming: Enabled
-[2023.07.08-12.07.47:916][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.07.08-12.07.48:078][  0]LogInit: Transaction tracking system initialized
-[2023.07.08-12.07.48:295][  0]BlueprintLog: New page: エディタの読み込み
-[2023.07.08-12.07.48:923][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.07.08-12.07.49:415][  0]LogConsoleResponse: Display: 
-[2023.07.08-12.07.49:527][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.07.08-12.07.49:527][  0]LogCook: Display: Mobile HDR setting 1
-[2023.07.08-12.07.49:527][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.07.08-12.07.50:275][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
-[2023.07.08-12.07.50:276][  0]SourceControl: ソースコントロールは無効です
-[2023.07.08-12.07.50:276][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.07.08-12.07.50:276][  0]LightingResults: New page: ライティングのビルド
-[2023.07.08-12.07.50:305][  0]MapCheck: New page: マップをチェック
-[2023.07.08-12.07.50:305][  0]LightingResults: New page: <何も選択されていません>
-[2023.07.08-12.07.50:500][  0]LogAIModule: Creating AISystem for world Main
-[2023.07.08-12.07.50:507][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.07.08-12.07.50:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.07.08-12.07.50:559][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 30.051ミリ秒かかりました。
-[2023.07.08-12.07.50:559][  0]LogFileHelpers: Loading map 'Main' took 0.283
-[2023.07.08-12.07.50:623][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.07.08-12.07.50:706][  0]LogCollectionManager: Loaded 0 collections in 0.000785 seconds
-[2023.07.08-12.07.50:781][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
-[2023.07.08-12.07.50:781][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
-[2023.07.08-12.07.50:781][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
-[2023.07.08-12.07.50:781][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.07.08-12.07.50:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2386 classes and 500 folders.
-[2023.07.08-12.07.50:839][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2023.07.08-12.07.50:928][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2023.07.08-12.07.50:964][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.08-12.07.51:002][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.08-12.07.51:005][  0]LogSlate: Took 0.001637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.07.08-12.07.51:005][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.07.08-12.07.51:010][  0]LogSlate: Took 0.001030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.07.08-12.07.51:087][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2023.07.08-12.07.51:229][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.08-12.07.51:229][  0]LogLoad: (Engine Initialization) Total time: 12.91 seconds
-[2023.07.08-12.07.51:229][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.07.08-12.07.51:230][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.07.08-12.07.51:252][  0]LogAssetRegistry: Asset discovery search completed in 8.1253 seconds
-[2023.07.08-12.07.51:253][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.07.08-12.07.51:253][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2023.07.08-12.07.51:256][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.07.08-12.07.51:299][  0]LogSlate: Took 0.000932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.08-12.09.57:932][851]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.08-12.09.57:945][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/award/award_bc.png)
-[2023.07.08-12.09.57:975][851]LogTexture: Display: Building textures: award_bc (AutoDXT, 1024X1024)
-[2023.07.08-12.09.58:091][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/award/award_n.png)
-[2023.07.08-12.09.58:129][851]LogTexture: Display: Building textures: award_n (BC5, 1024X1024)
-[2023.07.08-12.09.58:180][851]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.08-12.09.58:196][851]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/award/award_orm.png)
-[2023.07.08-12.09.58:227][851]LogTexture: Display: Building textures: award_orm (AutoDXT, 1024X1024)
-[2023.07.08-12.10.06:720][176]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.08-12.10.09:004][435]LogTexture: Display: Building textures: award_orm (AutoDXT, 1024X1024)
-[2023.07.08-12.10.12:751][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/award_orm" FILE="../../../../../../UnrealProjects/DrAward/Content/Texture/award_orm.uasset" SILENT=true
-[2023.07.08-12.10.12:842][870]LogSavePackage: Save=89.18ms
-[2023.07.08-12.10.12:842][870]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award_ormBD9721DB4273459CB095BEB4A580D93E.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Texture/award_orm.uasset'
-[2023.07.08-12.10.12:844][870]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Texture/award_orm.uasset
-[2023.07.08-12.10.34:030][651]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
-[2023.07.08-12.10.34:484][651]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.08-12.10.34:542][651]LogSlate: Took 0.000922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.BP_Award:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.BP_Award_C' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.BP_Award:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.BP_Award:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.BP_Award:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:900][309]LogMetaData: Removing '/Game/BP/BP_Award.SKEL_BP_Award_C' ref from Metadata '/Game/BP/BP_DrAward.PackageMetaData'
-[2023.07.08-12.11.37:928][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset" SILENT=true
-[2023.07.08-12.11.37:951][309]LogSavePackage: Save=21.71ms
-[2023.07.08-12.11.37:951][309]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_Award4D3A2C0940BC65A9D92504A4CC3BD25D.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset'
-[2023.07.08-12.11.37:953][309]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset
-[2023.07.08-12.11.56:994][564]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2023.07.08-12.11.56:996][564]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.11.57:057][564]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.11.57:066][564]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.11.58:049][650]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.08-12.11.58:049][650]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.08-12.11.58:049][650]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.08-12.12.10:140][926]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.12.10:149][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.12.10:178][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.12.10:189][926]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.12.10:200][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2023.07.08-12.12.10:231][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.12.10:235][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2023.07.08-12.12.10:251][926]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.12.10:264][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2023.07.08-12.12.10:298][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.12.10:303][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2023.07.08-12.12.10:307][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2023.07.08-12.12.10:717][948]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.08-12.12.10:717][948]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.08-12.12.10:717][948]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.08-12.12.23:656][513]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:10547).
-[2023.07.08-12.12.23:692][514]LogRenderer: Reallocating scene render targets to support 1208x604 Format 10 NumSamples 1 (Frame:10549).
-[2023.07.08-12.12.23:728][515]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:10551).
-[2023.07.08-12.12.23:764][516]LogRenderer: Reallocating scene render targets to support 1208x640 Format 10 NumSamples 1 (Frame:10553).
-[2023.07.08-12.12.23:800][517]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:10555).
-[2023.07.08-12.12.23:841][518]LogRenderer: Reallocating scene render targets to support 1208x664 Format 10 NumSamples 1 (Frame:10557).
-[2023.07.08-12.12.23:881][519]LogRenderer: Reallocating scene render targets to support 1208x672 Format 10 NumSamples 1 (Frame:10559).
-[2023.07.08-12.12.23:918][520]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:10561).
-[2023.07.08-12.12.23:955][521]LogRenderer: Reallocating scene render targets to support 1208x692 Format 10 NumSamples 1 (Frame:10563).
-[2023.07.08-12.12.35:972][781]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.12.35:987][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2023.07.08-12.12.36:699][845]MaterialEditorStats: Base pass shader: 81 instructions
-[2023.07.08-12.12.36:699][845]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.12.36:699][845]MaterialEditorStats: Texture samplers: 2/16
-[2023.07.08-12.12.36:699][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.12.53:207][760]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.12.53:217][760]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.12.53:517][780]MaterialEditorStats: Base pass shader: 81 instructions
-[2023.07.08-12.12.53:517][780]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.12.53:517][780]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.08-12.12.53:517][780]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.05:455][206]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.05:467][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.13.05:770][224]MaterialEditorStats: Base pass shader: 88 instructions
-[2023.07.08-12.13.05:770][224]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.05:770][224]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.08-12.13.05:770][224]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.07:715][455]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.07:725][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.13.08:028][472]MaterialEditorStats: Base pass shader: 88 instructions
-[2023.07.08-12.13.08:028][472]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.08:028][472]MaterialEditorStats: Texture samplers: 3/16
-[2023.07.08-12.13.08:028][472]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.15:193][321]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.15:204][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2023.07.08-12.13.15:498][341]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.13.15:498][341]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.15:498][341]MaterialEditorStats: Texture samplers: 4/16
-[2023.07.08-12.13.15:498][341]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.30:930][ 11]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.30:945][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.13.31:234][ 28]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.13.31:234][ 28]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.31:234][ 28]MaterialEditorStats: Texture samplers: 4/16
-[2023.07.08-12.13.31:234][ 28]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.36:003][596]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.36:018][596]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.13.36:316][616]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.13.36:316][616]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.36:316][616]MaterialEditorStats: Texture samplers: 4/16
-[2023.07.08-12.13.36:316][616]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.42:566][  8]LogMaterialEditor: Applying material M_Award
-[2023.07.08-12.13.42:904][  8]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.42:937][  8]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.42:954][  8]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.13.42:992][  8]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Award, compiling. 
-[2023.07.08-12.13.43:513][  8]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
-[2023.07.08-12.13.44:061][ 69]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.13.44:061][ 69]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.13.44:061][ 69]MaterialEditorStats: Texture samplers: 5/16
-[2023.07.08-12.13.44:061][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.13.50:517][815]LogMaterialEditor: Saving and Compiling material M_Award
-[2023.07.08-12.13.50:540][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset" SILENT=true
-[2023.07.08-12.13.50:555][815]LogSavePackage: Save=13.21ms
-[2023.07.08-12.13.50:555][815]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_AwardD27442E84D391BDA7B216E88D148203B.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset'
-[2023.07.08-12.13.50:557][815]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset
-[2023.07.08-12.13.58:133][709]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.08-12.13.58:238][709]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2023.07.08-12.13.58:272][709]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2023.07.08-12.13.58:459][709]LogSlate: Took 0.000959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.07.08-12.13.58:508][709]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2023.07.08-12.13.58:511][710]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
-[2023.07.08-12.14.05:096][494]LogMaterial: Warning: Material /Game/Material/M_Award.M_Award needed to have new flag set bUsedWithSkeletalMesh !
-[2023.07.08-12.14.05:096][494]LogMaterial: Warning: Material /Engine/Transient.M_Award needed to have new flag set bUsedWithSkeletalMesh !
-[2023.07.08-12.14.05:099][494]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.14.05:121][494]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.14.07:886][782]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.14.07:886][782]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.14.07:886][782]MaterialEditorStats: Texture samplers: 5/16
-[2023.07.08-12.14.07:886][782]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.14.13:505][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/award" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset" SILENT=true
-[2023.07.08-12.14.13:524][443]LogSavePackage: Save=13.55ms
-[2023.07.08-12.14.13:524][443]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award93C932E941FCDD22A005DC99B4E670E9.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset'
-[2023.07.08-12.14.13:526][443]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset
-[2023.07.08-12.14.21:490][396]LogMaterialEditor: Saving and Compiling material M_Award
-[2023.07.08-12.14.21:503][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset" SILENT=true
-[2023.07.08-12.14.21:512][396]LogSavePackage: Save=3.58ms
-[2023.07.08-12.14.21:512][396]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_Award1E0BCEE246299A3482BAA6B61FEE4356.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset'
-[2023.07.08-12.14.21:514][396]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Award.uasset
-[2023.07.08-12.16.22:007][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Master" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset" SILENT=true
-[2023.07.08-12.16.22:021][254]LogSavePackage: Save=12.73ms
-[2023.07.08-12.16.22:021][254]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_MasterE44CFC364647D613ED3BCA9CB7EAFDC8.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset'
-[2023.07.08-12.16.22:023][254]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset
-[2023.07.08-12.16.22:163][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/plane" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/plane.uasset" SILENT=true
-[2023.07.08-12.16.22:177][254]LogSavePackage: Save=10.51ms
-[2023.07.08-12.16.22:177][254]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/plane26FF706D44D1A3B3B87737B0E157F719.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/plane.uasset'
-[2023.07.08-12.16.22:178][254]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/plane.uasset
-[2023.07.08-12.16.22:186][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/wall_box" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/wall_box.uasset" SILENT=true
-[2023.07.08-12.16.22:201][254]LogSavePackage: Save=10.87ms
-[2023.07.08-12.16.22:201][254]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/wall_box4E7557EC4013924981A95ABC3FFA1C58.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/wall_box.uasset'
-[2023.07.08-12.16.22:201][254]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/wall_box.uasset
-[2023.07.08-12.16.32:634][663]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.16.32:675][663]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.16.32:705][663]LogMaterial: Missing cached shader map for material M_Award, compiling. 
-[2023.07.08-12.16.32:756][663]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Award, compiling. 
-[2023.07.08-12.16.33:855][663]TextureStreamingBuild: Display: Compiling optional shaders took 1.103 seconds.
-[2023.07.08-12.16.37:317][948]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.16.37:383][948]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.16.37:393][948]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.16.37:426][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2023.07.08-12.16.37:429][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2023.07.08-12.16.37:432][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2023.07.08-12.16.37:788][959]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.16.37:788][959]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.16.37:788][959]MaterialEditorStats: Texture samplers: 6/16
-[2023.07.08-12.16.37:788][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.17.14:574][713]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.17.14:584][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
-[2023.07.08-12.17.14:590][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
-[2023.07.08-12.17.14:615][713]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.17.14:624][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
-[2023.07.08-12.17.14:630][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
-[2023.07.08-12.17.14:656][713]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.17.14:668][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
-[2023.07.08-12.17.14:679][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
-[2023.07.08-12.17.14:710][713]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.17.14:800][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
-[2023.07.08-12.17.14:802][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
-[2023.07.08-12.17.14:805][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
-[2023.07.08-12.17.15:707][793]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.17.15:708][793]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.17.15:708][793]MaterialEditorStats: Texture samplers: 6/16
-[2023.07.08-12.17.15:708][793]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.19.45:575][139]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2023.07.08-12.19.45:596][139]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
-[2023.07.08-12.19.49:364][568]LogMaterial: Warning: Material /Game/Material/M_Master.M_Master needed to have new flag set bUsedWithSkeletalMesh !
-[2023.07.08-12.19.49:364][568]LogMaterial: Warning: Material /Engine/Transient.M_Master needed to have new flag set bUsedWithSkeletalMesh !
-[2023.07.08-12.19.49:366][568]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.19.49:388][568]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.19.50:744][677]MaterialEditorStats: Base pass shader: 94 instructions
-[2023.07.08-12.19.50:744][677]MaterialEditorStats: Vertex shader: 31 instructions
-[2023.07.08-12.19.50:744][677]MaterialEditorStats: Texture samplers: 6/16
-[2023.07.08-12.19.50:744][677]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2023.07.08-12.20.02:123][ 27]LogRenderer: Reallocating scene render targets to support 1392x924 Format 10 NumSamples 1 (Frame:1).
-[2023.07.08-12.21.01:260][403]LogMaterialEditor: Saving and Compiling material M_Master
-[2023.07.08-12.21.01:587][403]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.21.01:630][403]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.21.01:669][403]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.21.01:731][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Master, compiling. 
-[2023.07.08-12.21.02:801][403]TextureStreamingBuild: Display: Compiling optional shaders took 1.073 seconds.
-[2023.07.08-12.21.04:170][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Master" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset" SILENT=true
-[2023.07.08-12.21.04:186][403]LogSavePackage: Save=12.63ms
-[2023.07.08-12.21.04:186][403]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_MasterC1023C3C4B91EE9B04204480644E432C.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset'
-[2023.07.08-12.21.04:188][403]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Master.uasset
-[2023.07.08-12.21.08:858][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Award, compiling. 
-[2023.07.08-12.21.08:998][958]TextureStreamingBuild: Display: Compiling optional shaders took 0.143 seconds.
-[2023.07.08-12.21.45:196][ 28]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2023.07.08-12.21.45:373][ 28]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2023.07.08-12.22.56:662][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset" SILENT=true
-[2023.07.08-12.22.56:685][699]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Award, compiling. 
-[2023.07.08-12.22.57:172][699]TextureStreamingBuild: Display: Compiling optional shaders took 0.490 seconds.
-[2023.07.08-12.22.57:202][699]LogSavePackage: Save=10.27ms
-[2023.07.08-12.22.57:202][699]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_Award1B7E6B2E426E4769CDAC968EA89CFE87.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset'
-[2023.07.08-12.22.57:204][699]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset
-[2023.07.08-12.22.59:048][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/award" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset" SILENT=true
-[2023.07.08-12.22.59:065][918]LogSavePackage: Save=13.04ms
-[2023.07.08-12.22.59:065][918]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/awardEAEB8C2F401096A7337E39A736D4828C.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset'
-[2023.07.08-12.22.59:068][918]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/award.uasset
-[2023.07.08-12.24.26:680][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.018
-[2023.07.08-12.24.26:681][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/MI_Brick] ([1] browsable assets)...
-[2023.07.08-12.24.26:688][870]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Material/MI_Brick.MI_Brick]
-[2023.07.08-12.24.26:688][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/MI_Brick]
-[2023.07.08-12.24.26:688][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Brick" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Brick_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.08-12.24.26:701][870]LogSavePackage: Save=11.22ms
-[2023.07.08-12.24.26:701][870]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_Brick_Auto13F174E344A45DB6CB8D74194BC611675.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Brick_Auto1.uasset'
-[2023.07.08-12.24.26:702][870]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Brick_Auto1.uasset
-[2023.07.08-12.24.26:702][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/award_bc] ([1] browsable assets)...
-[2023.07.08-12.24.26:706][870]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/award_bc.award_bc]
-[2023.07.08-12.24.26:706][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/award_bc]
-[2023.07.08-12.24.26:706][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/award_bc" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_bc_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.08-12.24.26:717][870]LogSavePackage: Save=8.03ms
-[2023.07.08-12.24.26:717][870]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award_bc_Auto1DEC738F44C26CAECA3A7118C93B92902.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_bc_Auto1.uasset'
-[2023.07.08-12.24.26:718][870]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_bc_Auto1.uasset
-[2023.07.08-12.24.26:718][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/award_n] ([1] browsable assets)...
-[2023.07.08-12.24.26:723][870]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/award_n.award_n]
-[2023.07.08-12.24.26:723][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/award_n]
-[2023.07.08-12.24.26:723][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/award_n" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_n_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.08-12.24.26:733][870]LogSavePackage: Save=8.55ms
-[2023.07.08-12.24.26:733][870]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award_n_Auto1F9853BAF445F1BF3371FD1B462274E92.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_n_Auto1.uasset'
-[2023.07.08-12.24.26:734][870]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/award_n_Auto1.uasset
-[2023.07.08-12.24.26:734][870]LogFileHelpers: Auto-saving content packages took 0.053
-[2023.07.08-12.25.04:924][451]LogMaterial: Missing cached shader map for material M_Master, compiling. 
-[2023.07.08-12.25.08:249][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset" SILENT=true
-[2023.07.08-12.25.08:271][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Award, compiling. 
-[2023.07.08-12.25.08:400][841]TextureStreamingBuild: Display: Compiling optional shaders took 0.132 seconds.
-[2023.07.08-12.25.08:431][841]LogSavePackage: Save=9.72ms
-[2023.07.08-12.25.08:431][841]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_AwardD3136246465B906300B86489DA647390.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset'
-[2023.07.08-12.25.08:433][841]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/MI_Award.uasset
-[2023.07.08-12.27.18:312][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.07.08-12.27.18:431][668]LogSavePackage: Save=96.48ms
-[2023.07.08-12.27.18:431][668]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main3C222A614FA32863BD3EB3B187552EEB.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
-[2023.07.08-12.27.18:432][668]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
-[2023.07.08-12.27.18:452][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main_BuiltData" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main_BuiltData.uasset" SILENT=true
-[2023.07.08-12.27.18:494][668]LogSavePackage: Save=37.15ms
-[2023.07.08-12.27.18:494][668]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main_BuiltData7E4E6A2545FB78E7A79DA7A08441C02A.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main_BuiltData.uasset'
-[2023.07.08-12.27.18:495][668]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main_BuiltData.uasset
-[2023.07.08-12.27.20:063][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Brick" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/MI_Brick.uasset" SILENT=true
-[2023.07.08-12.27.20:075][849]LogSavePackage: Save=11.15ms
-[2023.07.08-12.27.20:075][849]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_Brick877F733D4455DAD1797E759D58A5D025.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/MI_Brick.uasset'
-[2023.07.08-12.27.20:077][849]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/MI_Brick.uasset
+[2023.07.08-13.37.24:640][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.08-13.37.24:640][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.07.08-13.37.24:648][  0]LogInit: Computer: DESKTOP-DFBAQQ3
+[2023.07.08-13.37.24:648][  0]LogInit: User: 81901
+[2023.07.08-13.37.24:648][  0]LogInit: CPU Page size=4096, Cores=12
+[2023.07.08-13.37.24:648][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.07.08-13.37.24:649][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.07.08-13.37.24:649][  0]LogMemory: Platform Memory Stats for Windows
+[2023.07.08-13.37.24:649][  0]LogMemory: Process Physical Memory: 285.71 MB used, 285.71 MB peak
+[2023.07.08-13.37.24:649][  0]LogMemory: Process Virtual Memory: 284.38 MB used, 284.38 MB peak
+[2023.07.08-13.37.24:649][  0]LogMemory: Physical Memory: 9619.91 MB used,  23073.99 MB free, 32693.90 MB total
+[2023.07.08-13.37.24:649][  0]LogMemory: Virtual Memory: 4816.40 MB used,  23073.99 MB free, 134217728.00 MB total
+[2023.07.08-13.37.24:807][  0]LogInit: Using OS detected language (ja-JP).
+[2023.07.08-13.37.24:807][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.07.08-13.37.24:809][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.07.08-13.37.25:196][  0]LogD3D11RHI: D3D11 adapters:
+[2023.07.08-13.37.25:326][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
+[2023.07.08-13.37.25:326][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.07.08-13.37.25:328][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.07.08-13.37.25:328][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.07.08-13.37.25:328][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.07.08-13.37.25:334][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.07.08-13.37.25:334][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2023.07.08-13.37.25:334][  0]LogWindows: EnumDisplayDevices:
+[2023.07.08-13.37.25:335][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
+[2023.07.08-13.37.25:335][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
+[2023.07.08-13.37.25:335][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.07.08-13.37.25:335][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.07.08-13.37.25:335][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.07.08-13.37.25:335][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
+[2023.07.08-13.37.25:335][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.07.08-13.37.25:335][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.07.08-13.37.25:335][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.07.08-13.37.25:414][  0]LogD3D11RHI: Async texture creation enabled
+[2023.07.08-13.37.25:427][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.07.08-13.37.25:430][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2023.07.08-13.37.25:430][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/4656/).
+[2023.07.08-13.37.25:430][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/3DC04F804A235C39642461827AEFFE32/'.
+[2023.07.08-13.37.25:430][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.07.08-13.37.26:276][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.07.08-13.37.26:314][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.07.08-13.37.26:352][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.07.08-13.37.26:390][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.07.08-13.37.26:428][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.07.08-13.37.26:465][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.07.08-13.37.26:503][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.07.08-13.37.26:541][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.07.08-13.37.26:573][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.07.08-13.37.26:610][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.07.08-13.37.26:646][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.07.08-13.37.26:683][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.07.08-13.37.26:720][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.07.08-13.37.26:757][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.07.08-13.37.26:794][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.07.08-13.37.26:868][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.07.08-13.37.26:868][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.07.08-13.37.26:896][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.07.08-13.37.26:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.07.08-13.37.26:994][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.07.08-13.37.27:032][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.07.08-13.37.27:069][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.07.08-13.37.27:106][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.07.08-13.37.27:143][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.07.08-13.37.27:143][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.07.08-13.37.27:497][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: Loaded boot cache 0.05s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.07.08-13.37.27:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.07.08-13.37.27:567][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.07.08-13.37.27:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.07.08-13.37.27:587][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.07.08-13.37.27:587][  0]LogSlate: Using Freetype 2.6.0
+[2023.07.08-13.37.27:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.08-13.37.27:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.08-13.37.27:789][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2023.07.08-13.37.27:879][  0]LogInit: Selected Device Profile: [Windows]
+[2023.07.08-13.37.27:968][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.07.08-13.37.28:173][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.07.08-13.37.28:201][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.07.08-13.37.28:201][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.07.08-13.37.28:201][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.07.08-13.37.28:201][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.07.08-13.37.28:201][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.07.08-13.37.28:437][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
+[2023.07.08-13.37.28:584][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.031820 seconds
+[2023.07.08-13.37.28:588][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.07.08-13.37.28:588][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2023.07.08-13.37.28:588][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.07.08-13.37.28:633][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.07.08-13.37.30:439][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.07.08-13.37.30:471][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.07.08-13.37.30:928][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.07.08-13.37.31:202][  0]SourceControl: ソースコントロールは無効です
+[2023.07.08-13.37.31:202][  0]SourceControl: ソースコントロールは無効です
+[2023.07.08-13.37.31:238][  0]SourceControl: ソースコントロールは無効です
+[2023.07.08-13.37.31:272][  0]SourceControl: ソースコントロールは無効です
+[2023.07.08-13.37.31:685][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.07.08-13.37.31:857][  0]LogOcInput: OculusInput pre-init called
+[2023.07.08-13.37.32:041][  0]LogEngine: Initializing Engine...
+[2023.07.08-13.37.32:043][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.07.08-13.37.32:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.07.08-13.37.32:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.07.08-13.37.32:266][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.07.08-13.37.32:320][  0]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.37.32:334][  0]LogInit: FAudioDevice initialized.
+[2023.07.08-13.37.32:410][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.07.08-13.37.32:416][  0]LogInit: Texture streaming: Enabled
+[2023.07.08-13.37.32:502][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.07.08-13.37.32:657][  0]LogInit: Transaction tracking system initialized
+[2023.07.08-13.37.32:872][  0]BlueprintLog: New page: エディタの読み込み
+[2023.07.08-13.37.33:499][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.07.08-13.37.33:982][  0]LogConsoleResponse: Display: 
+[2023.07.08-13.37.34:089][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.07.08-13.37.34:089][  0]LogCook: Display: Mobile HDR setting 1
+[2023.07.08-13.37.34:089][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.07.08-13.37.34:281][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
+[2023.07.08-13.37.34:823][  0]SourceControl: ソースコントロールは無効です
+[2023.07.08-13.37.34:823][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.07.08-13.37.34:823][  0]LightingResults: New page: ライティングのビルド
+[2023.07.08-13.37.34:852][  0]MapCheck: New page: マップをチェック
+[2023.07.08-13.37.34:852][  0]LightingResults: New page: <何も選択されていません>
+[2023.07.08-13.37.35:044][  0]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.37.35:050][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.07.08-13.37.35:071][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.07.08-13.37.35:102][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 30.656ミリ秒かかりました。
+[2023.07.08-13.37.35:102][  0]LogFileHelpers: Loading map 'Main' took 0.279
+[2023.07.08-13.37.35:167][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.07.08-13.37.35:234][  0]LogCollectionManager: Loaded 0 collections in 0.000781 seconds
+[2023.07.08-13.37.35:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
+[2023.07.08-13.37.35:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
+[2023.07.08-13.37.35:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
+[2023.07.08-13.37.35:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.07.08-13.37.35:307][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2386 classes and 500 folders.
+[2023.07.08-13.37.35:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.07.08-13.37.35:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.07.08-13.37.35:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2023.07.08-13.37.35:435][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.08-13.37.35:437][  0]LogSlate: Took 0.001597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.07.08-13.37.35:438][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.07.08-13.37.35:440][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.08-13.37.35:507][  0]LogRenderer: Reallocating scene render targets to support 1156x568 Format 10 NumSamples 1 (Frame:1).
+[2023.07.08-13.37.35:676][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.07.08-13.37.35:676][  0]LogLoad: (Engine Initialization) Total time: 12.69 seconds
+[2023.07.08-13.37.35:676][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.07.08-13.37.35:677][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.07.08-13.37.35:699][  0]LogAssetRegistry: Asset discovery search completed in 7.9313 seconds
+[2023.07.08-13.37.35:700][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.07.08-13.37.35:700][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2023.07.08-13.37.35:703][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.07.08-13.37.35:744][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.08-13.37.36:699][113]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.08-13.38.11:101][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.07.08-13.38.15:942][807]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.38.22:042][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.07.08-13.38.25:904][992]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.38.26:355][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.07.08-13.38.27:684][198]Cmd: DELETE
+[2023.07.08-13.38.27:684][198]Cmd: ACTOR DELETE
+[2023.07.08-13.38.27:686][198]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.07.08-13.38.27:706][198]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2023.07.08-13.38.28:694][317]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2023.07.08-13.38.31:275][620]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.38.39:552][603]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.07.08-13.38.39:809][603]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2023.07.08-13.38.40:251][603]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.08-13.38.40:294][603]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.07.08-13.38.40:365][604]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.07.08-13.39.04:113][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.07.08-13.39.04:141][307]LogSavePackage: Save=23.71ms
+[2023.07.08-13.39.04:141][307]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardC431B2734C3C2ACE0FAE42BE36861FD4.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset'
+[2023.07.08-13.39.04:143][307]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset
+[2023.07.08-13.39.07:907][748]LogRenderer: Reallocating scene render targets to support 1156x608 Format 10 NumSamples 1 (Frame:1).
+[2023.07.08-13.40.08:323][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.08-13.40.08:450][232]LogSavePackage: Save=98.70ms
+[2023.07.08-13.40.08:450][232]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main549EB374410CF4FE4D4252A471DA4003.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
+[2023.07.08-13.40.08:452][232]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
+[2023.07.08-13.40.08:472][232]LogFileHelpers: Saving map 'Main' took 0.185
+[2023.07.08-13.40.08:480][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.07.08-13.40.08:505][232]LogSavePackage: Save=22.15ms
+[2023.07.08-13.40.08:505][232]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_Award8CB167C24EB3414143609187B68696C3.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset'
+[2023.07.08-13.40.08:507][232]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset
+[2023.07.08-13.40.13:073][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.40.13:638][817]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2023.07.08-13.40.15:275][  7]Cmd: DELETE
+[2023.07.08-13.40.15:275][  7]Cmd: ACTOR DELETE
+[2023.07.08-13.40.15:275][  7]LogEditorActor: Deleted Actor: BP_Award_C
+[2023.07.08-13.40.15:299][  7]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2023.07.08-13.40.18:245][361]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.40.20:035][573]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.07.08-13.40.21:171][708]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.07.08-13.40.28:023][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.40.29:877][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.40.30:464][814]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.40.38:105][723]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.07.08-13.40.38:997][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.40.40:254][977]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.40.45:093][555]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.07.08-13.40.45:904][651]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane69)
+[2023.07.08-13.40.46:627][731]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.41.29:789][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.41.31:203][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.41.32:001][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box14)
+[2023.07.08-13.41.32:619][233]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.42.53:450][583]LogMetaData: Removing '/Game/BP/BP_Award_Controller.BP_Award_Controller:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/BP.PackageMetaData'
+[2023.07.08-13.42.53:450][583]LogMetaData: Removing '/Game/BP/BP_Award_Controller.SKEL_BP_Award_Controller_C' ref from Metadata '/Game/BP/BP.PackageMetaData'
+[2023.07.08-13.42.53:450][583]LogMetaData: Removing '/Game/BP/BP_Award_Controller.BP_Award_Controller_C' ref from Metadata '/Game/BP/BP.PackageMetaData'
+[2023.07.08-13.42.53:450][583]LogMetaData: Removing '/Game/BP/BP_Award_Controller.BP_Award_Controller:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/BP.PackageMetaData'
+[2023.07.08-13.42.53:450][583]LogMetaData: Removing '/Game/BP/BP_Award_Controller.BP_Award_Controller:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/BP.PackageMetaData'
+[2023.07.08-13.42.53:468][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award_Controller" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award_Controller.uasset" SILENT=true
+[2023.07.08-13.42.53:478][583]LogSavePackage: Save=8.93ms
+[2023.07.08-13.42.53:478][583]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_Award_Controller9FB8CA82495D8869AF1AF6BC66F4750E.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award_Controller.uasset'
+[2023.07.08-13.42.53:480][583]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award_Controller.uasset
+[2023.07.08-13.43.23:721][912]LogMetaData: Removing '/Game/BP/BP_AwardController.BP_AwardController_C' ref from Metadata '/Game/BP/BP_Award_Controller.PackageMetaData'
+[2023.07.08-13.43.23:721][912]LogMetaData: Removing '/Game/BP/BP_AwardController.SKEL_BP_AwardController_C' ref from Metadata '/Game/BP/BP_Award_Controller.PackageMetaData'
+[2023.07.08-13.43.23:721][912]LogMetaData: Removing '/Game/BP/BP_AwardController.BP_AwardController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/BP_Award_Controller.PackageMetaData'
+[2023.07.08-13.43.23:721][912]LogMetaData: Removing '/Game/BP/BP_AwardController.BP_AwardController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/BP_Award_Controller.PackageMetaData'
+[2023.07.08-13.43.23:721][912]LogMetaData: Removing '/Game/BP/BP_AwardController.BP_AwardController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/BP_Award_Controller.PackageMetaData'
+[2023.07.08-13.43.23:738][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardController" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset" SILENT=true
+[2023.07.08-13.43.23:748][912]LogSavePackage: Save=8.85ms
+[2023.07.08-13.43.23:748][912]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardController926969D3460455220C699EB4E3B38A3D.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset'
+[2023.07.08-13.43.23:750][912]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset
+[2023.07.08-13.43.25:690][107]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2023.07.08-13.43.36:013][312]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2023.07.08-13.43.41:105][918]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.07.08-13.44.26:333][235]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.07.08-13.44.26:333][235]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.07.08-13.44.26:333][235]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.17
+[2023.07.08-13.44.26:333][235]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.07.08-13.44.26:336][235]LogTemp: BranchPath = DESKTOP-DFBAQQ3/D/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-DFBAQQ3/D/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.07.08-13.44.26:347][236]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\81901\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.07.08-13.44.48:742][912]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.07.08-13.44.56:118][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.44.58:039][ 13]LogTemp: Repeating last play command: シミュレート
+[2023.07.08-13.44.58:064][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.44.58:064][ 13]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.08-13.44.58:065][ 13]LogPlayLevel: [PlayLevel] Compiling BP_Award before play...
+[2023.07.08-13.44.58:187][ 13]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2023.07.08-13.44.58:208][ 13]LogPlayLevel: PlayLevel: Blueprint regeneration took 144 ms (2 blueprints)
+[2023.07.08-13.44.58:208][ 13]PIE: New page: SIEセッション: Main (2023/07/09 7:44:58)
+[2023.07.08-13.44.58:209][ 13]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.08-13.44.58:213][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004149s)
+[2023.07.08-13.44.58:213][ 13]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.44.58:213][ 13]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2023.07.08-13.44.58:213][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004942s)
+[2023.07.08-13.44.58:278][ 13]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.44.58:284][ 13]LogInit: FAudioDevice initialized.
+[2023.07.08-13.44.58:321][ 13]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.08-13.44.58:324][ 13]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.08-22.44.58
+[2023.07.08-13.44.58:324][ 13]LogWorld: Bringing up level for play took: 0.001823
+[2023.07.08-13.44.58:354][ 13]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2023.07.08-13.44.58:355][ 13]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.07.08-13.44.58:355][ 13]PIE: /Game/Map/UEDPIE_0_Main 0.107のプレイ イン エディタの開始時間
+[2023.07.08-13.44.58:373][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.02:110][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.02:155][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.05:566][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.05:566][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.08-13.45.05:567][859]PIE: New page: PIEセッション: Main (2023/07/09 7:45:05)
+[2023.07.08-13.45.05:567][859]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.08-13.45.05:571][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004103s)
+[2023.07.08-13.45.05:571][859]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.45.05:572][859]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2023.07.08-13.45.05:572][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005042s)
+[2023.07.08-13.45.05:640][859]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.45.05:645][859]LogInit: FAudioDevice initialized.
+[2023.07.08-13.45.05:674][859]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.08-13.45.05:676][859]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.08-22.45.05
+[2023.07.08-13.45.05:676][859]LogWorld: Bringing up level for play took: 0.001720
+[2023.07.08-13.45.05:678][859]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.07.08-13.45.05:678][859]PIE: /Game/Map/UEDPIE_0_Main -0.571のプレイ イン エディタの開始時間
+[2023.07.08-13.45.05:678][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.11:479][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.11:521][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.36:940][425]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.08-13.45.36:953][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.36:953][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.08-13.45.36:953][425]PIE: New page: PIEセッション: Main (2023/07/09 7:45:36)
+[2023.07.08-13.45.36:953][425]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.08-13.45.36:957][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004089s)
+[2023.07.08-13.45.36:958][425]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.45.36:958][425]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2023.07.08-13.45.36:958][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005050s)
+[2023.07.08-13.45.37:023][425]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.45.37:028][425]LogInit: FAudioDevice initialized.
+[2023.07.08-13.45.37:060][425]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.08-13.45.37:062][425]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.08-22.45.37
+[2023.07.08-13.45.37:062][425]LogWorld: Bringing up level for play took: 0.001715
+[2023.07.08-13.45.37:063][425]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.07.08-13.45.37:063][425]PIE: /Game/Map/UEDPIE_0_Main 0.814のプレイ イン エディタの開始時間
+[2023.07.08-13.45.37:063][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.40:806][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.45.40:853][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.46.11:137][383]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wall_box14)
+[2023.07.08-13.46.11:960][475]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.46.19:932][426]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.46.57:069][880]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.46.57:487][929]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.47.04:195][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane69)
+[2023.07.08-13.47.05:050][826]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2023.07.08-13.48.09:395][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.07.08-13.48.09:420][537]LogSavePackage: Save=20.62ms
+[2023.07.08-13.48.09:420][537]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardA70CC5A942C76EBB4A714C955E565E98.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset'
+[2023.07.08-13.48.09:422][537]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset
+[2023.07.08-13.48.10:609][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box14)
+[2023.07.08-13.48.11:670][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.07.08-13.48.15:786][258]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.08-13.48.15:799][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.48.15:799][258]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.08-13.48.15:800][258]LogPlayLevel: [PlayLevel] Compiling BP_Award before play...
+[2023.07.08-13.48.15:939][258]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2023.07.08-13.48.15:939][258]PIE: New page: PIEセッション: Main (2023/07/09 7:48:15)
+[2023.07.08-13.48.15:939][258]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.08-13.48.15:944][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004148s)
+[2023.07.08-13.48.15:944][258]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.48.15:944][258]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2023.07.08-13.48.15:944][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004983s)
+[2023.07.08-13.48.16:009][258]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.48.16:014][258]LogInit: FAudioDevice initialized.
+[2023.07.08-13.48.16:045][258]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.08-13.48.16:047][258]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.08-22.48.16
+[2023.07.08-13.48.16:047][258]LogWorld: Bringing up level for play took: 0.001767
+[2023.07.08-13.48.16:049][258]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.07.08-13.48.16:049][258]PIE: /Game/Map/UEDPIE_0_Main -0.2のプレイ イン エディタの開始時間
+[2023.07.08-13.48.16:049][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.48.20:452][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.48.20:487][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.49.08:468][317]LogRenderer: Reallocating scene render targets to support 1156x712 Format 10 NumSamples 1 (Frame:1).
+[2023.07.08-13.49.18:843][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset" SILENT=true
+[2023.07.08-13.49.18:859][552]LogSavePackage: Save=14.56ms
+[2023.07.08-13.49.18:859][552]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardABA984D2430DE1D86C82269F4BE3BC2A.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset'
+[2023.07.08-13.49.18:861][552]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Award.uasset
+[2023.07.08-13.50.49:363][778]LogTemp: Repeating last play command: 選択ビューポート
+[2023.07.08-13.50.49:378][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.50.49:378][778]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.07.08-13.50.49:379][778]LogPlayLevel: [PlayLevel] Compiling BP_AwardController before play...
+[2023.07.08-13.50.49:525][778]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2023.07.08-13.50.49:525][778]PIE: New page: PIEセッション: Main (2023/07/09 7:50:49)
+[2023.07.08-13.50.49:525][778]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.07.08-13.50.49:530][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004178s)
+[2023.07.08-13.50.49:530][778]LogAIModule: Creating AISystem for world Main
+[2023.07.08-13.50.49:530][778]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2023.07.08-13.50.49:531][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005200s)
+[2023.07.08-13.50.49:596][778]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.07.08-13.50.49:601][778]LogInit: FAudioDevice initialized.
+[2023.07.08-13.50.49:642][778]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.07.08-13.50.49:644][778]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.08-22.50.49
+[2023.07.08-13.50.49:644][778]LogWorld: Bringing up level for play took: 0.001815
+[2023.07.08-13.50.49:645][778]LogBlueprintUserMessages: [BP_AwardController_C_0] Hello
+[2023.07.08-13.50.49:645][778]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.07.08-13.50.49:646][778]PIE: /Game/Map/UEDPIE_0_Main -0.603のプレイ イン エディタの開始時間
+[2023.07.08-13.50.49:646][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.50.49:659][778]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2023.07.08-13.50.52:735][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.50.52:785][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.07.08-13.50.59:617][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.07.08-13.50.59:739][951]LogSavePackage: Save=98.99ms
+[2023.07.08-13.50.59:739][951]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main242B63804B84379DDDA27B99BD6F7ED8.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
+[2023.07.08-13.50.59:742][951]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
+[2023.07.08-13.50.59:762][951]LogFileHelpers: Saving map 'Main' took 0.184
+[2023.07.08-13.50.59:766][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardGameMode" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset" SILENT=true
+[2023.07.08-13.50.59:776][951]LogSavePackage: Save=8.97ms
+[2023.07.08-13.50.59:776][951]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardGameMode3425B0274860AA737F51D3948D64717E.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset'
+[2023.07.08-13.50.59:777][951]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset
+[2023.07.08-13.50.59:781][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardController" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset" SILENT=true
+[2023.07.08-13.50.59:795][951]LogSavePackage: Save=9.86ms
+[2023.07.08-13.50.59:795][951]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardController8ED5276D44CF8EA0AA23E5B539E10BD4.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset'
+[2023.07.08-13.50.59:797][951]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardController.uasset
