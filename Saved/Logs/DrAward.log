@@ -1,4 +1,4 @@
-﻿Log file open, 07/19/23 22:08:01
+﻿Log file open, 08/02/23 22:10:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrAward
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2092542312) SRandInit(-2092542312).
+LogInit: Display: RandInit(1333706509) SRandInit(1333706509).
 LogTaskGraph: Started task graph with 5 named threads and 38 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.404134
+LogStats: Stats thread started at 0.414267
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,1034 +113,470 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.07.19-13.08.01:735][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.19-13.08.01:735][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.07.19-13.08.01:747][  0]LogInit: Computer: DESKTOP-DFBAQQ3
-[2023.07.19-13.08.01:747][  0]LogInit: User: 81901
-[2023.07.19-13.08.01:747][  0]LogInit: CPU Page size=4096, Cores=12
-[2023.07.19-13.08.01:747][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.07.19-13.08.01:747][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2023.07.19-13.08.01:747][  0]LogMemory: Platform Memory Stats for Windows
-[2023.07.19-13.08.01:747][  0]LogMemory: Process Physical Memory: 285.63 MB used, 285.63 MB peak
-[2023.07.19-13.08.01:747][  0]LogMemory: Process Virtual Memory: 284.25 MB used, 284.25 MB peak
-[2023.07.19-13.08.01:747][  0]LogMemory: Physical Memory: 10267.81 MB used,  22426.09 MB free, 32693.90 MB total
-[2023.07.19-13.08.01:747][  0]LogMemory: Virtual Memory: 4812.39 MB used,  22426.09 MB free, 134217728.00 MB total
-[2023.07.19-13.08.01:904][  0]LogInit: Using OS detected language (ja-JP).
-[2023.07.19-13.08.01:904][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.07.19-13.08.01:907][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.07.19-13.08.02:302][  0]LogD3D11RHI: D3D11 adapters:
-[2023.07.19-13.08.02:453][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
-[2023.07.19-13.08.02:453][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.07.19-13.08.02:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.07.19-13.08.02:456][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.07.19-13.08.02:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.07.19-13.08.02:463][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.07.19-13.08.02:463][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
-[2023.07.19-13.08.02:463][  0]LogWindows: EnumDisplayDevices:
-[2023.07.19-13.08.02:463][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
-[2023.07.19-13.08.02:463][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
-[2023.07.19-13.08.02:463][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.07.19-13.08.02:463][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.07.19-13.08.02:463][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.07.19-13.08.02:463][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
-[2023.07.19-13.08.02:463][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.07.19-13.08.02:463][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.07.19-13.08.02:463][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.07.19-13.08.02:546][  0]LogD3D11RHI: Async texture creation enabled
-[2023.07.19-13.08.02:560][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.07.19-13.08.02:562][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
-[2023.07.19-13.08.02:563][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/22380/).
-[2023.07.19-13.08.02:563][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/5EC710FC42F4F35DB6AA0C8ED1802331/'.
-[2023.07.19-13.08.02:563][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.07.19-13.08.03:437][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.07.19-13.08.03:483][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.07.19-13.08.03:528][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.07.19-13.08.03:571][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.07.19-13.08.03:615][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.07.19-13.08.03:663][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.07.19-13.08.03:708][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.07.19-13.08.03:750][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.07.19-13.08.03:785][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.07.19-13.08.03:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.07.19-13.08.03:863][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.07.19-13.08.03:903][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.07.19-13.08.03:942][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.07.19-13.08.03:982][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.07.19-13.08.04:024][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.07.19-13.08.04:103][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.07.19-13.08.04:104][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.07.19-13.08.04:137][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.07.19-13.08.04:218][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.07.19-13.08.04:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.07.19-13.08.04:283][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.07.19-13.08.04:323][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.07.19-13.08.04:362][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.07.19-13.08.04:402][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.07.19-13.08.04:402][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.07.19-13.08.04:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.07.19-13.08.04:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.07.19-13.08.04:879][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.07.19-13.08.04:891][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.07.19-13.08.04:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.07.19-13.08.04:901][  0]LogSlate: Using Freetype 2.6.0
-[2023.07.19-13.08.04:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.19-13.08.04:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.07.19-13.08.05:125][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2023.07.19-13.08.05:220][  0]LogInit: Selected Device Profile: [Windows]
-[2023.07.19-13.08.05:319][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.07.19-13.08.05:536][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.07.19-13.08.05:567][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.07.19-13.08.05:567][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.07.19-13.08.05:567][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.07.19-13.08.05:567][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.07.19-13.08.05:567][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.07.19-13.08.05:805][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
-[2023.07.19-13.08.05:961][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041378 seconds
-[2023.07.19-13.08.05:966][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2023.07.19-13.08.05:966][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2023.07.19-13.08.05:966][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.07.19-13.08.06:012][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.07.19-13.08.07:906][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.07.19-13.08.07:939][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.07.19-13.08.08:427][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.07.19-13.08.08:710][  0]SourceControl: ソースコントロールは無効です
-[2023.07.19-13.08.08:710][  0]SourceControl: ソースコントロールは無効です
-[2023.07.19-13.08.08:746][  0]SourceControl: ソースコントロールは無効です
-[2023.07.19-13.08.08:780][  0]SourceControl: ソースコントロールは無効です
-[2023.07.19-13.08.09:216][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.07.19-13.08.09:396][  0]LogOcInput: OculusInput pre-init called
-[2023.07.19-13.08.09:587][  0]LogEngine: Initializing Engine...
-[2023.07.19-13.08.09:589][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.07.19-13.08.09:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.07.19-13.08.09:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.07.19-13.08.09:825][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.07.19-13.08.09:880][  0]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-13.08.09:895][  0]LogInit: FAudioDevice initialized.
-[2023.07.19-13.08.09:978][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.07.19-13.08.09:989][  0]LogInit: Texture streaming: Enabled
-[2023.07.19-13.08.10:078][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.07.19-13.08.10:246][  0]LogInit: Transaction tracking system initialized
-[2023.07.19-13.08.10:472][  0]BlueprintLog: New page: エディタの読み込み
-[2023.07.19-13.08.11:131][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.07.19-13.08.11:646][  0]LogConsoleResponse: Display: 
-[2023.07.19-13.08.11:758][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.07.19-13.08.11:758][  0]LogCook: Display: Mobile HDR setting 1
-[2023.07.19-13.08.11:758][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.07.19-13.08.12:527][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
-[2023.07.19-13.08.12:527][  0]SourceControl: ソースコントロールは無効です
-[2023.07.19-13.08.12:527][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.07.19-13.08.12:527][  0]LightingResults: New page: ライティングのビルド
-[2023.07.19-13.08.12:557][  0]MapCheck: New page: マップをチェック
-[2023.07.19-13.08.12:557][  0]LightingResults: New page: <何も選択されていません>
-[2023.07.19-13.08.12:845][  0]LogAIModule: Creating AISystem for world Main
-[2023.07.19-13.08.12:859][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.07.19-13.08.12:880][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.07.19-13.08.12:913][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 33.002ミリ秒かかりました。
-[2023.07.19-13.08.12:913][  0]LogFileHelpers: Loading map 'Main' took 0.386
-[2023.07.19-13.08.12:980][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.07.19-13.08.13:075][  0]LogCollectionManager: Loaded 0 collections in 0.000812 seconds
-[2023.07.19-13.08.13:151][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
-[2023.07.19-13.08.13:151][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
-[2023.07.19-13.08.13:151][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
-[2023.07.19-13.08.13:151][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.07.19-13.08.13:159][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2386 classes and 500 folders.
-[2023.07.19-13.08.13:209][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2023.07.19-13.08.13:368][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2023.07.19-13.08.13:403][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.19-13.08.13:443][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.19-13.08.13:446][  0]LogSlate: Took 0.002055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.07.19-13.08.13:446][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.07.19-13.08.13:451][  0]LogSlate: Took 0.001410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.07.19-13.08.13:523][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2023.07.19-13.08.13:703][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.19-13.08.13:703][  0]LogLoad: (Engine Initialization) Total time: 13.74 seconds
-[2023.07.19-13.08.13:703][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.07.19-13.08.13:703][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.07.19-13.08.13:728][  0]LogAssetRegistry: Asset discovery search completed in 8.6247 seconds
-[2023.07.19-13.08.13:729][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2023.07.19-13.08.13:729][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2023.07.19-13.08.13:732][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.07.19-13.08.13:781][  0]LogSlate: Took 0.001440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.19-13.08.19:993][730]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.BPAnim_Award_C_0
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.08.35:302][558]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.19-13.08.35:376][558]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2023.07.19-13.08.35:493][558]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2023.07.19-13.08.35:537][558]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2023.07.19-13.08.35:756][558]LogSlate: Took 0.001598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.07.19-13.08.35:810][558]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2023.07.19-13.08.35:816][559]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
-[2023.07.19-13.08.54:258][369]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2023.07.19-13.08.54:382][370]LogRenderer: Reallocating scene render targets to support 1208x924 Format 10 NumSamples 1 (Frame:1).
-[2023.07.19-13.19.18:537][315]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.07.19-13.19.27:295][577]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.020
-[2023.07.19-13.19.27:296][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mesh/award_PhysicsAsset] ([1] browsable assets)...
-[2023.07.19-13.19.27:296][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/award_PhysicsAsset]
-[2023.07.19-13.19.27:296][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/award_PhysicsAsset" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/award_PhysicsAsset_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.07.19-13.19.27:312][577]LogSavePackage: Save=7.67ms
-[2023.07.19-13.19.27:312][577]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award_PhysicsAsset_Auto13A1E6B35430CF26B3BA104A4CC550E0D.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/award_PhysicsAsset_Auto1.uasset'
-[2023.07.19-13.19.27:312][577]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/award_PhysicsAsset_Auto1.uasset
-[2023.07.19-13.19.27:313][577]LogFileHelpers: Auto-saving content packages took 0.017
-[2023.07.19-13.26.40:607][651]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/trap_arrow.fbx)
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: NodeAttribute, ItemCount : 1
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: Model, ItemCount : 10
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: Geometry, ItemCount : 9
-[2023.07.19-13.26.40:623][651]LogFbx: ItemName: Material, ItemCount : 1
-[2023.07.19-13.26.40:629][651]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/trap_arrow.fbx
-[2023.07.19-13.26.40:637][651]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.19-13.26.47:683][651]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/trap_arrow.fbx
-[2023.07.19-13.26.47:690][651]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.19-13.26.47:691][651]LogFbx: Warning: Triangulating static mesh arrow
-[2023.07.19-13.26.47:694][651]LogFbx: Warning: Triangulating static mesh arrow1
-[2023.07.19-13.26.47:695][651]LogFbx: Warning: Triangulating static mesh arrow2
-[2023.07.19-13.26.47:696][651]LogFbx: Warning: Triangulating static mesh arrow3
-[2023.07.19-13.26.47:697][651]LogFbx: Warning: Triangulating static mesh arrow4
-[2023.07.19-13.26.47:698][651]LogFbx: Warning: Triangulating static mesh arrow5
-[2023.07.19-13.26.47:699][651]LogFbx: Warning: Triangulating static mesh arrow6
-[2023.07.19-13.26.47:700][651]LogFbx: Warning: Triangulating static mesh arrow7
-[2023.07.19-13.26.47:701][651]LogFbx: Warning: Triangulating static mesh arrow8
-[2023.07.19-13.26.47:703][651]LogStaticMesh: スタティックメッシュ trap_arrow をビルド中...
-[2023.07.19-13.26.47:711][651]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/trap_arrow.trap_arrow
-[2023.07.19-13.26.47:719][651]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/trap_floor.fbx)
-[2023.07.19-13.26.47:736][651]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/trap_floor.fbx
-[2023.07.19-13.26.47:741][651]LogFbx: FBX Scene Loaded Succesfully
-[2023.07.19-13.26.47:741][651]LogFbx: Warning: Triangulating static mesh trap_floor
-[2023.07.19-13.26.47:748][651]LogStaticMesh: スタティックメッシュ trap_floor をビルド中...
-[2023.07.19-13.26.47:750][651]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/trap_floor.trap_floor
-[2023.07.19-13.26.51:866][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/award_PhysicsAsset" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/award_PhysicsAsset.uasset" SILENT=true
-[2023.07.19-13.26.51:878][122]LogSavePackage: Save=7.58ms
-[2023.07.19-13.26.51:878][122]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/award_PhysicsAssetCF086B9443BFD1AFA0326799E01B3C15.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/award_PhysicsAsset.uasset'
-[2023.07.19-13.26.51:880][122]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/award_PhysicsAsset.uasset
-[2023.07.19-13.26.51:891][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/trap_floor" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset" SILENT=true
-[2023.07.19-13.26.51:902][122]LogSavePackage: Save=9.65ms
-[2023.07.19-13.26.51:902][122]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/trap_floor7ED42A1D4D677B5AB3B7149E9C8AE13B.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset'
-[2023.07.19-13.26.51:904][122]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset
-[2023.07.19-13.26.51:913][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/trap_arrow" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset" SILENT=true
-[2023.07.19-13.26.51:924][122]LogSavePackage: Save=10.14ms
-[2023.07.19-13.26.51:924][122]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/trap_arrow5E2D08DC4ADF2284C769CA96373203B1.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset'
-[2023.07.19-13.26.51:926][122]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset
-[2023.07.19-13.27.35:736][818]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1277).
-[2023.07.19-13.28.06:943][525]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2023.07.19-13.28.06:945][525]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.07:030][525]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.07:040][525]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.07:079][525]LogSlate: Took 0.001413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.07.19-13.28.07:963][607]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.07:963][607]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.07:963][607]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.21:369][539]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.22:670][690]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.22:670][690]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.22:670][690]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.23:526][792]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.23:802][822]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.23:802][822]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.23:802][822]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.31:148][703]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.31:418][731]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.31:418][731]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.31:418][731]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.32:814][898]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.33:086][927]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.33:086][927]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.33:086][927]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.34:831][135]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.35:093][163]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.35:093][163]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.35:093][163]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.40:391][485]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.28.40:700][516]MaterialEditorStats: Base pass shader: 78 instructions
-[2023.07.19-13.28.40:700][516]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.28.40:700][516]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.28.45:428][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
-[2023.07.19-13.29.01:912][579]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.02:571][655]MaterialEditorStats: Base pass shader: 79 instructions
-[2023.07.19-13.29.02:571][655]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.29.02:571][655]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.29.04:433][878]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.04:691][906]MaterialEditorStats: Base pass shader: 84 instructions
-[2023.07.19-13.29.04:692][906]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.29.04:692][906]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.29.07:517][245]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.07:786][276]MaterialEditorStats: Base pass shader: 84 instructions
-[2023.07.19-13.29.07:786][276]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.29.07:786][276]MaterialEditorStats: Texture samplers: 1/16
-[2023.07.19-13.29.12:180][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/trap_floor" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset" SILENT=true
-[2023.07.19-13.29.12:195][640]LogSavePackage: Save=9.73ms
-[2023.07.19-13.29.12:195][640]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/trap_floor5CCF89374E9B77D3AF818B9108C61DB3.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset'
-[2023.07.19-13.29.12:197][640]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_floor.uasset
-[2023.07.19-13.29.12:205][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Metal" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset" SILENT=true
-[2023.07.19-13.29.12:217][640]LogSavePackage: Save=10.58ms
-[2023.07.19-13.29.12:217][640]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_MetalDFD8C870436F4CE66F3679A71D11577B.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset'
-[2023.07.19-13.29.12:219][640]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset
-[2023.07.19-13.29.44:720][ 35]LogMaterialEditor: Applying material M_Metal
-[2023.07.19-13.29.45:052][ 35]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.45:084][ 35]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.45:099][ 35]LogMaterial: Missing cached shader map for material M_Metal, compiling. 
-[2023.07.19-13.29.45:134][ 35]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal, compiling. 
-[2023.07.19-13.29.45:664][ 35]TextureStreamingBuild: Display: Compiling optional shaders took 0.534 seconds.
-[2023.07.19-13.29.46:596][144]MaterialEditorStats: Base pass shader: 84 instructions
-[2023.07.19-13.29.46:596][144]MaterialEditorStats: Vertex shader: 29 instructions
-[2023.07.19-13.29.46:596][144]MaterialEditorStats: Texture samplers: 2/16
-[2023.07.19-13.29.49:223][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/trap_arrow" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset" SILENT=true
-[2023.07.19-13.29.49:240][455]LogSavePackage: Save=11.84ms
-[2023.07.19-13.29.49:240][455]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/trap_arrow708BECFB4D6D0CAA4AF90E9F0CBDB095.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset'
-[2023.07.19-13.29.49:242][455]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/trap_arrow.uasset
-[2023.07.19-13.29.49:251][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/M_Metal" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset" SILENT=true
-[2023.07.19-13.29.49:267][455]LogSavePackage: Save=10.33ms
-[2023.07.19-13.29.49:267][455]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/M_Metal8A516637420467B0D79F3AAC1DB29406.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset'
-[2023.07.19-13.29.49:269][455]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/M_Metal.uasset
-[2023.07.19-13.30.40:118][333]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
-[2023.07.19-13.30.40:538][333]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.07.19-13.32.10:323][956]LogEditorTransaction: Undo コンポーネントを修正
-[2023.07.19-13.33.14:370][438]Cmd: MODE GRID=1
-[2023.07.19-13.35.39:197][649]BlueprintLog: New page: BP_TrapArrow をコンパイル
-[2023.07.19-13.35.56:944][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane)
-[2023.07.19-13.35.58:586][930]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (plane)
-[2023.07.19-13.36.11:595][475]EditorErrors: New page: アクタを再度親子付け
-[2023.07.19-13.36.24:746][ 46]Cmd: TRANSACTION UNDO
-[2023.07.19-13.36.24:746][ 46]LogEditorTransaction: Undo アクタを置換
-[2023.07.19-13.36.26:829][286]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (plane)
-[2023.07.19-13.37.35:176][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane)
-[2023.07.19-13.37.36:172][  8]Cmd: DELETE
-[2023.07.19-13.37.36:172][  8]Cmd: ACTOR DELETE
-[2023.07.19-13.37.36:174][  8]LogEditorActor: Deleted Actor: StaticMeshActor
-[2023.07.19-13.37.36:193][  8]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2023.07.19-13.37.37:151][123]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2023.07.19-13.37.38:063][228]LogEditorViewport: Clicking on Actor (LMB): BP_TrapArrow_C (BP_TrapArrow)
-[2023.07.19-13.38.04:900][643]LogEditorViewport: Clicking on Actor (LMB): BP_TrapArrow_C (BP_TrapArrow)
-[2023.07.19-13.38.47:772][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.07.19-13.38.47:923][230]LogSavePackage: Save=126.64ms
-[2023.07.19-13.38.47:924][230]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main45DCC74F482AF31C9FCA178EC1F81DFC.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
-[2023.07.19-13.38.47:926][230]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
-[2023.07.19-13.38.47:956][230]LogFileHelpers: Saving map 'Main' took 0.225
-[2023.07.19-13.38.47:964][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset" SILENT=true
-[2023.07.19-13.38.47:982][230]LogSavePackage: Save=17.03ms
-[2023.07.19-13.38.47:983][230]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_TrapArrowE30E8CAB4E183010665FFBA650813686.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset'
-[2023.07.19-13.38.47:984][230]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset
-[2023.07.19-13.39.11:699][980]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-13.39.11:728][980]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.39.11:728][980]BlueprintLog: New page: プレイ前に自動再コンパイル
-[2023.07.19-13.39.11:730][980]LogPlayLevel: [PlayLevel] Compiling BP_TrapArrow before play...
-[2023.07.19-13.39.12:007][980]LogPlayLevel: PlayLevel: Blueprint regeneration took 278 ms (1 blueprints)
-[2023.07.19-13.39.12:009][980]PIE: New page: PIEセッション: Main (2023/07/20 7:39:12)
-[2023.07.19-13.39.12:009][980]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-13.39.12:015][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005175s)
-[2023.07.19-13.39.12:015][980]LogAIModule: Creating AISystem for world Main
-[2023.07.19-13.39.12:015][980]LogPlayLevel: PIE: World Init took: (0.000544s)
-[2023.07.19-13.39.12:015][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005923s)
-[2023.07.19-13.39.12:083][980]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-13.39.12:090][980]LogInit: FAudioDevice initialized.
-[2023.07.19-13.39.12:160][980]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-13.39.12:163][980]PIE: Warning: Invalid Simulate Options: Body (Sphere_2.StaticMeshComponent0 Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2023.07.19-13.39.12:163][980]PIE: Warning: Invalid Simulate Options: Body (Sphere_2.StaticMeshComponent0 Sphere) is set to simulate physics but Collision Enabled is incompatible
-[2023.07.19-13.39.12:163][980]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-22.39.12
-[2023.07.19-13.39.12:165][980]LogWorld: Bringing up level for play took: 0.004399
-[2023.07.19-13.39.12:197][980]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2023.07.19-13.39.12:199][980]LogBlueprintUserMessages: [BP_AwardGameMode_C_0] Hello
-[2023.07.19-13.39.12:199][980]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-13.39.12:200][980]PIE: /Game/Map/UEDPIE_0_Main 0.434のプレイ イン エディタの開始時間
-[2023.07.19-13.39.12:200][980]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.39.18:260][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.39.18:313][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.40.02:707][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.07.19-13.40.02:851][ 43]LogSavePackage: Save=122.06ms
-[2023.07.19-13.40.02:851][ 43]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main15EDD0C843FED1793C1719B47ADB48CA.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
-[2023.07.19-13.40.02:853][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
-[2023.07.19-13.40.02:883][ 43]LogFileHelpers: Saving map 'Main' took 0.213
-[2023.07.19-13.40.02:898][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset" SILENT=true
-[2023.07.19-13.40.02:922][ 43]LogSavePackage: Save=18.81ms
-[2023.07.19-13.40.02:922][ 43]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_TrapArrowE30826424ED17516B181C5A3D60DA15A.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset'
-[2023.07.19-13.40.02:924][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset
-[2023.07.19-13.40.02:926][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AwardGameMode" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset" SILENT=true
-[2023.07.19-13.40.02:949][ 43]LogSavePackage: Save=18.66ms
-[2023.07.19-13.40.02:949][ 43]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_AwardGameMode87CE82814830159BD3399DBF2AB6DEC9.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset'
-[2023.07.19-13.40.02:951][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_AwardGameMode.uasset
-[2023.07.19-13.40.03:822][147]BlueprintLog: New page: BP_AwardGameMode をコンパイル
-[2023.07.19-13.40.06:766][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
-[2023.07.19-13.40.07:807][597]Cmd: DELETE
-[2023.07.19-13.40.07:807][597]Cmd: ACTOR DELETE
-[2023.07.19-13.40.07:807][597]LogEditorActor: Deleted Actor: StaticMeshActor
-[2023.07.19-13.40.07:826][597]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2023.07.19-13.40.09:757][828]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-13.40.09:775][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.40.09:775][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-13.40.09:775][828]PIE: New page: PIEセッション: Main (2023/07/20 7:40:09)
-[2023.07.19-13.40.09:775][828]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-13.40.09:780][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004920s)
-[2023.07.19-13.40.09:781][828]LogAIModule: Creating AISystem for world Main
-[2023.07.19-13.40.09:781][828]LogPlayLevel: PIE: World Init took: (0.000500s)
-[2023.07.19-13.40.09:781][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005598s)
-[2023.07.19-13.40.09:847][828]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-13.40.09:853][828]LogInit: FAudioDevice initialized.
-[2023.07.19-13.40.09:881][828]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-13.40.09:884][828]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-22.40.09
-[2023.07.19-13.40.09:885][828]LogWorld: Bringing up level for play took: 0.002701
-[2023.07.19-13.40.09:886][828]LogBlueprintUserMessages: [Main_C_1] Level
-[2023.07.19-13.40.09:886][828]PIE: /Game/Map/UEDPIE_0_Main 0.12のプレイ イン エディタの開始時間
-[2023.07.19-13.40.09:886][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.40.12:569][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.40.12:602][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.40.27:367][856]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:367][856]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:397][857]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:397][857]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:418][858]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:418][858]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:426][859]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:426][859]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:434][860]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:434][860]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:443][861]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:443][861]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:451][862]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:451][862]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:459][863]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.40.27:459][863]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:0032
-[2023.07.19-13.40.27:468][864]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
-	BP_AwardController_C /Engine/Transient.World_18:PersistentLevel.BP_AwardController_C_0
-	Function /Game/BP/BP_AwardController.BP_AwardController_C:ExecuteUbergraph_BP_AwardController:008A
-[2023.07.19-13.41.03:793][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2023.07.19-13.41.30:565][317]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2023.07.19-13.41.33:469][639]LogCascade: Quitting Cascade. FXSystem=0x000001EF567EFA60
-[2023.07.19-13.42.01:007][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane3)
-[2023.07.19-13.42.02:351][ 45]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-13.42.02:369][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.42.02:369][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-13.42.02:369][ 45]PIE: New page: PIEセッション: Main (2023/07/20 7:42:02)
-[2023.07.19-13.42.02:369][ 45]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-13.42.02:374][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005002s)
-[2023.07.19-13.42.02:374][ 45]LogAIModule: Creating AISystem for world Main
-[2023.07.19-13.42.02:374][ 45]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2023.07.19-13.42.02:374][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005705s)
-[2023.07.19-13.42.02:446][ 45]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-13.42.02:453][ 45]LogInit: FAudioDevice initialized.
-[2023.07.19-13.42.02:484][ 45]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-13.42.02:486][ 45]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-22.42.02
-[2023.07.19-13.42.02:487][ 45]LogWorld: Bringing up level for play took: 0.002563
-[2023.07.19-13.42.02:488][ 45]LogBlueprintUserMessages: [Main_C_1] Level
-[2023.07.19-13.42.02:488][ 45]PIE: /Game/Map/UEDPIE_0_Main 0.723のプレイ イン エディタの開始時間
-[2023.07.19-13.42.02:488][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.42.06:368][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.42.06:414][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.42.06:462][511]Cmd: SELECT NONE
-[2023.07.19-13.42.44:023][963]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2023.07.19-13.42.44:023][963]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:198][963]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
-[2023.07.19-13.42.44:363][963]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:428][964]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:435][965]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:443][966]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:451][967]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:460][968]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:468][969]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:476][970]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:485][971]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:493][972]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:501][973]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:510][974]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:520][975]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:527][976]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:535][977]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.42.44:543][978]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_25:PersistentLevel.Actor_1.DebugSkelMeshComponent_1.BPAnim_Award_C_3
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0083
-[2023.07.19-13.43.11:152][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
-[2023.07.19-13.43.11:322][127]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
-[2023.07.19-13.43.19:017][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
-[2023.07.19-13.43.19:038][ 17]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
-[2023.07.19-13.43.19:288][ 17]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2023.07.19-13.45.58:559][615]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-13.45.58:575][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.45.58:575][615]BlueprintLog: New page: プレイ前に自動再コンパイル
-[2023.07.19-13.45.58:577][615]LogPlayLevel: [PlayLevel] Compiling BP_TrapArrow before play...
-[2023.07.19-13.45.58:926][615]LogPlayLevel: PlayLevel: Blueprint regeneration took 350 ms (1 blueprints)
-[2023.07.19-13.45.58:926][615]PIE: New page: PIEセッション: Main (2023/07/20 7:45:58)
-[2023.07.19-13.45.58:926][615]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-13.45.58:931][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004934s)
-[2023.07.19-13.45.58:931][615]LogAIModule: Creating AISystem for world Main
-[2023.07.19-13.45.58:931][615]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2023.07.19-13.45.58:932][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005631s)
-[2023.07.19-13.45.58:998][615]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-13.45.59:004][615]LogInit: FAudioDevice initialized.
-[2023.07.19-13.45.59:047][615]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-13.45.59:050][615]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-22.45.59
-[2023.07.19-13.45.59:051][615]LogWorld: Bringing up level for play took: 0.002685
-[2023.07.19-13.45.59:052][615]LogBlueprintUserMessages: [Main_C_1] Level
-[2023.07.19-13.45.59:053][615]PIE: /Game/Map/UEDPIE_0_Main 1.288のプレイ イン エディタの開始時間
-[2023.07.19-13.45.59:053][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.46.01:938][944]LogBlueprintUserMessages: [BP_TrapArrow] Hello
-[2023.07.19-13.46.03:113][ 85]LogBlueprintUserMessages: [BP_TrapArrow] Hello
-[2023.07.19-13.46.05:081][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.46.05:128][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-13.51.43:948][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.07.19-13.51.44:074][ 82]LogSavePackage: Save=121.04ms
-[2023.07.19-13.51.44:074][ 82]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main_Auto2069674DA40FE69554C5092B3E6DA9949.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap'
-[2023.07.19-13.51.44:077][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto2.umap
-[2023.07.19-13.51.44:078][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.151
-[2023.07.19-13.51.44:078][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.151
-[2023.07.19-13.51.44:079][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_TrapArrow] ([1] browsable assets)...
-[2023.07.19-13.51.44:093][ 82]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_TrapArrow.BP_TrapArrow]
-[2023.07.19-13.51.44:093][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_TrapArrow]
-[2023.07.19-13.51.44:093][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2023.07.19-13.51.44:123][ 82]LogSavePackage: Save=24.72ms
-[2023.07.19-13.51.44:123][ 82]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_TrapArrow_Auto243EF68E2441CB381B8804D9589576338.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto2.uasset'
-[2023.07.19-13.51.44:124][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto2.uasset
-[2023.07.19-13.51.44:124][ 82]LogFileHelpers: Auto-saving content packages took 0.045
-[2023.07.19-13.54.38:220][949]LogEditorTransaction: Undo 新たに入力された値
-[2023.07.19-13.55.34:108][704]LogEditorTransaction: Undo マウスをドラッグ
-[2023.07.19-13.57.09:585][615]BlueprintLog: New page: BP_TrapArrow をコンパイル
-[2023.07.19-13.59.50:311][431]BlueprintLog: New page: BP_TrapArrow をコンパイル
-[2023.07.19-14.00.02:254][821]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.00.02:274][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.00.02:274][821]BlueprintLog: New page: プレイ前に自動再コンパイル
-[2023.07.19-14.00.02:277][821]LogPlayLevel: [PlayLevel] Compiling BP_TrapArrow before play...
-[2023.07.19-14.00.02:566][821]LogPlayLevel: PlayLevel: Blueprint regeneration took 291 ms (1 blueprints)
-[2023.07.19-14.00.02:566][821]PIE: New page: PIEセッション: Main (2023/07/20 8:00:02)
-[2023.07.19-14.00.02:566][821]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.00.02:571][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004992s)
-[2023.07.19-14.00.02:571][821]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.00.02:572][821]LogPlayLevel: PIE: World Init took: (0.000560s)
-[2023.07.19-14.00.02:572][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005747s)
-[2023.07.19-14.00.02:639][821]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.00.02:646][821]LogInit: FAudioDevice initialized.
-[2023.07.19-14.00.02:687][821]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.00.02:689][821]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.00.02
-[2023.07.19-14.00.02:690][821]LogWorld: Bringing up level for play took: 0.002797
-[2023.07.19-14.00.02:691][821]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-14.00.02:692][821]PIE: /Game/Map/UEDPIE_0_Main 0.927のプレイ イン エディタの開始時間
-[2023.07.19-14.00.02:692][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.00.06:709][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.00.06:757][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.01.55:281][254]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.01.55:301][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.01.55:302][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-14.01.55:302][254]PIE: New page: PIEセッション: Main (2023/07/20 8:01:55)
-[2023.07.19-14.01.55:302][254]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.01.55:307][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005018s)
-[2023.07.19-14.01.55:307][254]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.01.55:307][254]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2023.07.19-14.01.55:307][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005732s)
-[2023.07.19-14.01.55:376][254]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.01.55:382][254]LogInit: FAudioDevice initialized.
-[2023.07.19-14.01.55:427][254]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.01.55:430][254]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.01.55
-[2023.07.19-14.01.55:430][254]LogWorld: Bringing up level for play took: 0.002702
-[2023.07.19-14.01.55:431][254]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-14.01.55:432][254]PIE: /Game/Map/UEDPIE_0_Main -0.333のプレイ イン エディタの開始時間
-[2023.07.19-14.01.55:433][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.00:017][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.00:063][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.14:669][549]BlueprintLog: New page: BP_TrapArrow をコンパイル
-[2023.07.19-14.02.17:846][885]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.02.17:866][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.17:866][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-14.02.17:866][885]PIE: New page: PIEセッション: Main (2023/07/20 8:02:17)
-[2023.07.19-14.02.17:866][885]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.02.17:871][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005000s)
-[2023.07.19-14.02.17:872][885]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.02.17:872][885]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2023.07.19-14.02.17:872][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005716s)
-[2023.07.19-14.02.17:939][885]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.02.17:945][885]LogInit: FAudioDevice initialized.
-[2023.07.19-14.02.17:986][885]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.02.17:989][885]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.02.17
-[2023.07.19-14.02.17:989][885]LogWorld: Bringing up level for play took: 0.002657
-[2023.07.19-14.02.17:990][885]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-14.02.17:991][885]PIE: /Game/Map/UEDPIE_0_Main 0.226のプレイ イン エディタの開始時間
-[2023.07.19-14.02.17:992][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.27:650][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.02.27:699][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.03.25:528][964]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.03.25:544][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.03.25:544][964]BlueprintLog: New page: プレイ前に自動再コンパイル
-[2023.07.19-14.03.25:547][964]LogPlayLevel: [PlayLevel] Compiling BP_TrapArrow before play...
-[2023.07.19-14.03.25:835][964]LogPlayLevel: PlayLevel: Blueprint regeneration took 291 ms (1 blueprints)
-[2023.07.19-14.03.25:835][964]PIE: New page: PIEセッション: Main (2023/07/20 8:03:25)
-[2023.07.19-14.03.25:836][964]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.03.25:841][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004980s)
-[2023.07.19-14.03.25:841][964]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.03.25:841][964]LogPlayLevel: PIE: World Init took: (0.000528s)
-[2023.07.19-14.03.25:841][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005694s)
-[2023.07.19-14.03.25:908][964]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.03.25:914][964]LogInit: FAudioDevice initialized.
-[2023.07.19-14.03.25:957][964]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.03.25:960][964]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.03.25
-[2023.07.19-14.03.25:961][964]LogWorld: Bringing up level for play took: 0.002703
-[2023.07.19-14.03.25:962][964]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-14.03.25:963][964]PIE: /Game/Map/UEDPIE_0_Main 0.197のプレイ イン エディタの開始時間
-[2023.07.19-14.03.25:963][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.03.31:815][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.03.31:862][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.04.21:252][586]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.04.21:273][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.04.21:273][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-14.04.21:273][586]PIE: New page: PIEセッション: Main (2023/07/20 8:04:21)
-[2023.07.19-14.04.21:273][586]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.04.21:278][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005100s)
-[2023.07.19-14.04.21:278][586]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.04.21:279][586]LogPlayLevel: PIE: World Init took: (0.000518s)
-[2023.07.19-14.04.21:279][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005817s)
-[2023.07.19-14.04.21:345][586]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.04.21:351][586]LogInit: FAudioDevice initialized.
-[2023.07.19-14.04.21:393][586]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.04.21:395][586]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.04.21
-[2023.07.19-14.04.21:396][586]LogWorld: Bringing up level for play took: 0.002820
-[2023.07.19-14.04.21:397][586]LogBlueprintUserMessages: [Main_C_0] Level
-[2023.07.19-14.04.21:398][586]PIE: /Game/Map/UEDPIE_0_Main -0.368のプレイ イン エディタの開始時間
-[2023.07.19-14.04.21:398][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.04.24:660][973]LogBlueprintUserMessages: [BP_Award_C_0] damage
-[2023.07.19-14.04.27:625][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.04.27:674][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.04.34:643][161]LogEditorViewport: Clicking on Actor (LMB): BP_Skeleton_C (BP_Skeleton)
-[2023.07.19-14.04.59:823][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane13)
-[2023.07.19-14.05.42:878][787]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wall_box10)
-[2023.07.19-14.05.43:956][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box4)
-[2023.07.19-14.05.44:646][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.07.19-14.05.44:773][981]LogSavePackage: Save=121.73ms
-[2023.07.19-14.05.44:773][981]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main_Auto3D8EFE05548A4BC5EF5009492409D2307.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap'
-[2023.07.19-14.05.44:774][981]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap
-[2023.07.19-14.05.44:776][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.150
-[2023.07.19-14.05.44:776][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
-[2023.07.19-14.05.44:777][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_TrapArrow] ([1] browsable assets)...
-[2023.07.19-14.05.44:785][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_TrapArrow.BP_TrapArrow]
-[2023.07.19-14.05.44:785][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_TrapArrow]
-[2023.07.19-14.05.44:785][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2023.07.19-14.05.44:815][981]LogSavePackage: Save=25.06ms
-[2023.07.19-14.05.44:815][981]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_TrapArrow_Auto3AD78B5A34D5B3A0E121777A8D2EB688C.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto3.uasset'
-[2023.07.19-14.05.44:816][981]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_TrapArrow_Auto3.uasset
-[2023.07.19-14.05.44:816][981]LogFileHelpers: Auto-saving content packages took 0.040
-[2023.07.19-14.05.50:202][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane13)
-[2023.07.19-14.05.53:280][986]LogEditorViewport: Clicking on Actor (LMB): BP_TrapArrow_C (BP_TrapArrow)
-[2023.07.19-14.05.56:993][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box9)
-[2023.07.19-14.05.58:312][581]LogEditorViewport: Clicking on Actor (LMB): BP_TrapArrow_C (BP_TrapArrow)
-[2023.07.19-14.06.03:414][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane6)
-[2023.07.19-14.06.05:754][462]LogEditorViewport: Clicking on Actor (LMB): BP_TrapArrow_C (BP_TrapArrow)
-[2023.07.19-14.06.07:733][694]LogEditorViewport: Clicking Background
-[2023.07.19-14.06.11:275][118]LogEditorViewport: Clicking on Actor (LMB): BP_Skeleton_C (BP_Skeleton)
-[2023.07.19-14.06.25:770][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane67)
-[2023.07.19-14.06.27:094][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box3)
-[2023.07.19-14.06.42:255][235]LogEditorViewport: Clicking on Actor (LMB): BP_Skeleton_C (BP_Skeleton2)
-[2023.07.19-14.06.45:363][603]LogEditorViewport: Clicking on Actor (LMB): BP_Skeleton_C (BP_Skeleton2)
-[2023.07.19-14.06.56:759][958]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.06.56:775][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.06.56:775][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-14.06.56:775][958]PIE: New page: PIEセッション: Main (2023/07/20 8:06:56)
-[2023.07.19-14.06.56:775][958]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.06.56:780][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005135s)
-[2023.07.19-14.06.56:781][958]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.06.56:781][958]LogPlayLevel: PIE: World Init took: (0.000538s)
-[2023.07.19-14.06.56:781][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005878s)
-[2023.07.19-14.06.56:850][958]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.06.56:857][958]LogInit: FAudioDevice initialized.
-[2023.07.19-14.06.56:889][958]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.06.56:892][958]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.06.56
-[2023.07.19-14.06.56:892][958]LogWorld: Bringing up level for play took: 0.002900
-[2023.07.19-14.06.56:893][958]LogBlueprintUserMessages: [Main_C_2] Level
-[2023.07.19-14.06.56:893][958]PIE: /Game/Map/UEDPIE_0_Main -0.872のプレイ イン エディタの開始時間
-[2023.07.19-14.06.56:894][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.04:434][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.04:497][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.36:767][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_Skeleton_C (BP_Skeleton)
-[2023.07.19-14.07.43:145][804]LogTemp: Repeating last play command: 選択ビューポート
-[2023.07.19-14.07.43:161][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.43:161][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.07.19-14.07.43:161][804]PIE: New page: PIEセッション: Main (2023/07/20 8:07:43)
-[2023.07.19-14.07.43:161][804]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2023.07.19-14.07.43:166][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004989s)
-[2023.07.19-14.07.43:167][804]LogAIModule: Creating AISystem for world Main
-[2023.07.19-14.07.43:167][804]LogPlayLevel: PIE: World Init took: (0.000502s)
-[2023.07.19-14.07.43:167][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.005679s)
-[2023.07.19-14.07.43:235][804]LogInit: XAudio2 using 'ライン (2- Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
-[2023.07.19-14.07.43:241][804]LogInit: FAudioDevice initialized.
-[2023.07.19-14.07.43:272][804]LogLoad: Game class is 'BP_AwardGameMode_C'
-[2023.07.19-14.07.43:275][804]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.07.19-23.07.43
-[2023.07.19-14.07.43:276][804]LogWorld: Bringing up level for play took: 0.002964
-[2023.07.19-14.07.43:277][804]LogBlueprintUserMessages: [Main_C_2] Level
-[2023.07.19-14.07.43:277][804]PIE: /Game/Map/UEDPIE_0_Main -0.488のプレイ イン エディタの開始時間
-[2023.07.19-14.07.43:277][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.49:399][538]LogBlueprintUserMessages: [BP_Award_C_0] damage
-[2023.07.19-14.07.52:292][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.07.52:355][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2023.07.19-14.08.16:491][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.07.19-14.08.16:646][765]LogSavePackage: Save=130.10ms
-[2023.07.19-14.08.16:646][765]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main1698CDF34F0FA644F61F06A04A544CD8.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
-[2023.07.19-14.08.16:650][765]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
-[2023.07.19-14.08.16:676][765]LogFileHelpers: Saving map 'Main' took 0.228
-[2023.07.19-14.08.16:678][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_TrapArrow" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset" SILENT=true
-[2023.07.19-14.08.16:700][765]LogSavePackage: Save=18.99ms
-[2023.07.19-14.08.16:700][765]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_TrapArrowFD8F591A43BF5A1488366DA4EA8E142F.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset'
-[2023.07.19-14.08.16:702][765]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_TrapArrow.uasset
-[2023.07.19-14.08.19:342][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2023.07.19-14.08.22:238][390]Cmd: QUIT_EDITOR
-[2023.07.19-14.08.22:600][390]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.07.19-14.08.22:611][390]LogExit: Preparing to exit.
-[2023.07.19-14.08.23:697][390]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/DrAward/Content/' was aborted.
-[2023.07.19-14.08.23:724][390]LogExit: Editor shut down
-[2023.07.19-14.08.23:727][390]LogExit: Transaction tracking system shut down
-[2023.07.19-14.08.23:910][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2023.07.19-14.08.23:910][390]LogDirectoryWatcher: A directory notification for '../../../../../../UnrealProjects/DrAward/Content/' was aborted.
-[2023.07.19-14.08.23:910][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2023.07.19-14.08.23:910][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2023.07.19-14.08.23:910][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2023.07.19-14.08.23:965][390]LogExit: Object subsystem successfully closed.
-[2023.07.19-14.08.23:994][390]LogD3D11RHI: Shutdown
-[2023.07.19-14.08.23:994][390]LogD3D11RHI: CleanupD3DDevice
-[2023.07.19-14.08.24:098][390]LogD3D11RHI: ~FD3D11DynamicRHI
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module AnimationEditor (558)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (556)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module DistCurveEditor (554)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module Cascade (552)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (548)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module BlueprintGraph (546)
-[2023.07.19-14.08.24:104][390]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (544)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module MaterialEditor (542)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (540)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module PhAT (538)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (532)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2023.07.19-14.08.24:105][390]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2023.07.19-14.08.24:105][390]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2023.07.19-14.08.24:106][390]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/DrAward/Content/Collections/' was aborted.
-[2023.07.19-14.08.24:106][390]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' was aborted.
-[2023.07.19-14.08.24:106][390]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/DrAward/Saved/Collections/' was aborted.
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module Media (477)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2023.07.19-14.08.24:106][390]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2023.07.19-14.08.25:041][390]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2023.07.19-14.08.25:042][390]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2023.07.19-14.08.25:084][390]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2023.07.19-14.08.25:089][390]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2023.07.19-14.08.25:090][390]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2023.07.19-14.08.25:091][390]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2023.07.19-14.08.25:184][390]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2023.07.19-14.08.25:185][390]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2023.07.19-14.08.25:285][390]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2023.07.19-14.08.25:386][390]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2023.07.19-14.08.25:387][390]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2023.07.19-14.08.25:388][390]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2023.07.19-14.08.25:389][390]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2023.07.19-14.08.25:389][390]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2023.07.19-14.08.25:389][390]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module Core (168)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2023.07.19-14.08.25:390][390]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2023.07.19-14.08.25:425][390]LogDerivedDataCache: Shutdown
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2023.07.19-14.08.25:425][390]LogOnline: Display: Unloading online subsystem: NULL
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2023.07.19-14.08.25:425][390]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2023.07.19-14.08.25:425][390]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2023.07.19-14.08.25:425][390]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E511760-4487-7A73-F731-43975461C4F4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=7bf8468b479bf8b24baa8eb4fce83360%7C214ead9e2a1144a9935949a664756766%7C264aa807-801a-4ba4-acc1-9eb2d978a233&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2023.07.19-14.08.25:445][390]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2023.07.19-14.08.25:446][390]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2023.07.19-14.08.25:448][390]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2023.07.19-14.08.25:456][390]LogExit: Exiting.
-[2023.07.19-14.08.25:469][390]Log file closed, 07/19/23 23:08:25
+[2023.08.02-13.10.28:773][  0]LogInit: Selected Device Profile: [Windows]
+[2023.08.02-13.10.28:773][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.08.02-13.10.28:786][  0]LogInit: Computer: DESKTOP-DFBAQQ3
+[2023.08.02-13.10.28:786][  0]LogInit: User: 81901
+[2023.08.02-13.10.28:786][  0]LogInit: CPU Page size=4096, Cores=12
+[2023.08.02-13.10.28:786][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.08.02-13.10.28:786][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.08.02-13.10.28:786][  0]LogMemory: Platform Memory Stats for Windows
+[2023.08.02-13.10.28:786][  0]LogMemory: Process Physical Memory: 288.54 MB used, 288.54 MB peak
+[2023.08.02-13.10.28:786][  0]LogMemory: Process Virtual Memory: 285.29 MB used, 285.29 MB peak
+[2023.08.02-13.10.28:786][  0]LogMemory: Physical Memory: 12010.00 MB used,  20682.06 MB free, 32692.06 MB total
+[2023.08.02-13.10.28:786][  0]LogMemory: Virtual Memory: 4825.86 MB used,  20682.06 MB free, 134217728.00 MB total
+[2023.08.02-13.10.28:906][  0]LogInit: Using OS detected language (ja-JP).
+[2023.08.02-13.10.28:906][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.08.02-13.10.28:908][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.08.02-13.10.29:318][  0]LogD3D11RHI: D3D11 adapters:
+[2023.08.02-13.10.29:430][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
+[2023.08.02-13.10.29:430][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.08.02-13.10.29:433][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.08.02-13.10.29:433][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.08.02-13.10.29:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.08.02-13.10.29:443][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.08.02-13.10.29:443][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2023.08.02-13.10.29:443][  0]LogWindows: EnumDisplayDevices:
+[2023.08.02-13.10.29:443][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
+[2023.08.02-13.10.29:444][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
+[2023.08.02-13.10.29:444][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.08.02-13.10.29:444][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.08.02-13.10.29:444][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.08.02-13.10.29:444][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
+[2023.08.02-13.10.29:444][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.08.02-13.10.29:444][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.08.02-13.10.29:444][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.08.02-13.10.29:513][  0]LogD3D11RHI: Async texture creation enabled
+[2023.08.02-13.10.29:532][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.08.02-13.10.29:535][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2023.08.02-13.10.29:535][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/23236/).
+[2023.08.02-13.10.29:535][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/E9DAE12A4DF26C0F5F8C24BBF287305C/'.
+[2023.08.02-13.10.29:535][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.08.02-13.10.30:578][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.08.02-13.10.30:612][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.08.02-13.10.30:644][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.08.02-13.10.30:677][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.08.02-13.10.30:709][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.08.02-13.10.30:742][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.08.02-13.10.30:774][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.08.02-13.10.30:806][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.08.02-13.10.30:834][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.08.02-13.10.30:866][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.08.02-13.10.30:897][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.08.02-13.10.30:928][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.08.02-13.10.30:961][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.08.02-13.10.30:993][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.08.02-13.10.31:026][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.08.02-13.10.31:092][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.08.02-13.10.31:093][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.08.02-13.10.31:116][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.08.02-13.10.31:183][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.08.02-13.10.31:202][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.08.02-13.10.31:236][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.08.02-13.10.31:269][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.08.02-13.10.31:302][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.08.02-13.10.31:335][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.08.02-13.10.31:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.08.02-13.10.31:630][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.08.02-13.10.31:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.08.02-13.10.31:713][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.08.02-13.10.31:726][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.08.02-13.10.31:734][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.08.02-13.10.31:734][  0]LogSlate: Using Freetype 2.6.0
+[2023.08.02-13.10.31:735][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.08.02-13.10.31:735][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.08.02-13.10.31:954][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2023.08.02-13.10.32:043][  0]LogInit: Selected Device Profile: [Windows]
+[2023.08.02-13.10.32:145][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.08.02-13.10.32:331][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.08.02-13.10.32:356][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.08.02-13.10.32:357][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.08.02-13.10.32:357][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.08.02-13.10.32:357][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.08.02-13.10.32:357][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.08.02-13.10.32:614][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
+[2023.08.02-13.10.32:782][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055205 seconds
+[2023.08.02-13.10.32:787][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.08.02-13.10.32:787][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2023.08.02-13.10.32:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.08.02-13.10.32:818][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.08.02-13.10.34:535][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.08.02-13.10.34:564][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.08.02-13.10.34:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.08.02-13.10.35:216][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.10.35:216][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.10.35:245][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.10.35:274][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.10.35:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.08.02-13.10.35:790][  0]LogOcInput: OculusInput pre-init called
+[2023.08.02-13.10.35:954][  0]LogEngine: Initializing Engine...
+[2023.08.02-13.10.35:956][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.08.02-13.10.36:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.08.02-13.10.36:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.08.02-13.10.36:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.08.02-13.10.36:253][  0]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.10.36:269][  0]LogInit: FAudioDevice initialized.
+[2023.08.02-13.10.36:387][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.08.02-13.10.36:399][  0]LogInit: Texture streaming: Enabled
+[2023.08.02-13.10.36:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.08.02-13.10.36:606][  0]LogInit: Transaction tracking system initialized
+[2023.08.02-13.10.36:787][  0]BlueprintLog: New page: エディタの読み込み
+[2023.08.02-13.10.37:318][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.08.02-13.10.37:736][  0]LogConsoleResponse: Display: 
+[2023.08.02-13.10.37:863][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.08.02-13.10.37:863][  0]LogCook: Display: Mobile HDR setting 1
+[2023.08.02-13.10.37:863][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.08.02-13.10.38:268][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
+[2023.08.02-13.10.38:488][  0]SourceControl: ソースコントロールは無効です
+[2023.08.02-13.10.38:488][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.08.02-13.10.38:489][  0]LightingResults: New page: ライティングのビルド
+[2023.08.02-13.10.38:512][  0]MapCheck: New page: マップをチェック
+[2023.08.02-13.10.38:513][  0]LightingResults: New page: <何も選択されていません>
+[2023.08.02-13.10.38:977][  0]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.10.38:995][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.08.02-13.10.39:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.08.02-13.10.39:058][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 39.444ミリ秒かかりました。
+[2023.08.02-13.10.39:058][  0]LogFileHelpers: Loading map 'Main' took 0.570
+[2023.08.02-13.10.39:133][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.08.02-13.10.39:231][  0]LogCollectionManager: Loaded 0 collections in 0.000852 seconds
+[2023.08.02-13.10.39:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
+[2023.08.02-13.10.39:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
+[2023.08.02-13.10.39:300][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
+[2023.08.02-13.10.39:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.08.02-13.10.39:310][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2386 classes and 500 folders.
+[2023.08.02-13.10.39:349][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2023.08.02-13.10.39:553][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.08.02-13.10.39:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.10.39:619][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.02-13.10.39:622][  0]LogSlate: Took 0.002033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.08.02-13.10.39:623][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.08.02-13.10.39:627][  0]LogSlate: Took 0.001757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.08.02-13.10.39:705][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2023.08.02-13.10.39:877][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.10.39:877][  0]LogLoad: (Engine Initialization) Total time: 12.91 seconds
+[2023.08.02-13.10.39:877][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.08.02-13.10.39:877][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.08.02-13.10.39:906][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.08.02-13.10.39:953][  0]LogSlate: Took 0.001742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.10.39:973][  1]LogAssetRegistry: Asset discovery search completed in 8.0406 seconds
+[2023.08.02-13.10.39:974][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2023.08.02-13.10.39:974][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2023.08.02-13.17.51:903][310]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.17.51:917][310]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx)
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: Geometry, ItemCount : 1
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: Material, ItemCount : 1
+[2023.08.02-13.17.51:934][310]LogFbx: ItemName: Model, ItemCount : 1
+[2023.08.02-13.17.51:940][310]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.17.51:945][310]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.17.53:902][310]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/rock.fbx)
+[2023.08.02-13.18.05:408][ 78]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx)
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: Geometry, ItemCount : 1
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: Material, ItemCount : 1
+[2023.08.02-13.18.05:412][ 78]LogFbx: ItemName: Model, ItemCount : 1
+[2023.08.02-13.18.05:416][ 78]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.18.05:420][ 78]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.18.23:549][ 78]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/rock.fbx)
+[2023.08.02-13.18.35:589][412]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx)
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: Geometry, ItemCount : 1
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: Material, ItemCount : 1
+[2023.08.02-13.18.35:592][412]LogFbx: ItemName: Model, ItemCount : 1
+[2023.08.02-13.18.35:596][412]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.18.35:601][412]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.18.40:977][412]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/hole_wall.fbx
+[2023.08.02-13.18.40:981][412]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.18.40:983][412]LogFbx: Warning: Triangulating static mesh HoleWall
+[2023.08.02-13.18.40:986][412]LogStaticMesh: スタティックメッシュ hole_wall をビルド中...
+[2023.08.02-13.18.40:987][412]LogStaticMesh: Built static mesh [0.00s] /Game/Mesh/hole_wall.hole_wall
+[2023.08.02-13.18.40:995][412]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/rock.fbx)
+[2023.08.02-13.18.41:002][412]LogFbx: Loading FBX Scene from C:/Users/81901/Desktop/DrAward_Pack/sozai/Mesh/rock.fbx
+[2023.08.02-13.18.41:007][412]LogFbx: FBX Scene Loaded Succesfully
+[2023.08.02-13.18.41:007][412]LogFbx: Warning: Triangulating static mesh Rock
+[2023.08.02-13.18.41:048][412]LogStaticMesh: スタティックメッシュ rock をビルド中...
+[2023.08.02-13.18.41:053][412]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh/rock.rock
+[2023.08.02-13.19.06:732][ 41]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/rock/rock_bc.png)
+[2023.08.02-13.19.06:780][ 41]LogTexture: Display: Building textures: rock_bc (AutoDXT, 1024X1024)
+[2023.08.02-13.19.06:969][ 41]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/rock/rock_n.png)
+[2023.08.02-13.19.07:029][ 41]LogTexture: Display: Building textures: rock_n (BC5, 1024X1024)
+[2023.08.02-13.19.07:091][ 41]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.08.02-13.19.07:107][ 41]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Texture/rock/rock_orm.png)
+[2023.08.02-13.19.07:151][ 41]LogTexture: Display: Building textures: rock_orm (AutoDXT, 1024X1024)
+[2023.08.02-13.19.13:560][465]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2023.08.02-13.19.16:190][752]LogTexture: Display: Building textures: rock_orm (AutoDXT, 1024X1024)
+[2023.08.02-13.19.19:568][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_orm" FILE="../../../../../../UnrealProjects/DrAward/Content/Texture/rock_orm.uasset" SILENT=true
+[2023.08.02-13.19.19:700][122]LogSavePackage: Save=128.88ms
+[2023.08.02-13.19.19:700][122]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_ormF3D95F0E4A90EF49B6B8ECB38F626ED8.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Texture/rock_orm.uasset'
+[2023.08.02-13.19.19:704][122]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Texture/rock_orm.uasset
+[2023.08.02-13.21.19:064][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.022
+[2023.08.02-13.21.19:065][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh/hole_wall] ([1] browsable assets)...
+[2023.08.02-13.21.19:073][250]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mesh/hole_wall.hole_wall]
+[2023.08.02-13.21.19:073][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/hole_wall]
+[2023.08.02-13.21.19:073][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.21.19:087][250]LogSavePackage: Save=11.78ms
+[2023.08.02-13.21.19:087][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/hole_wall_Auto1100E9EC441F8961E9531E5B47B2D0711.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset'
+[2023.08.02-13.21.19:088][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/hole_wall_Auto1.uasset
+[2023.08.02-13.21.19:088][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh/rock] ([1] browsable assets)...
+[2023.08.02-13.21.19:095][250]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Mesh/rock.rock]
+[2023.08.02-13.21.19:095][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh/rock]
+[2023.08.02-13.21.19:095][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/rock" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.21.19:110][250]LogSavePackage: Save=11.13ms
+[2023.08.02-13.21.19:110][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_Auto17F3F34BA41A2128C8853AFA131465D71.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset'
+[2023.08.02-13.21.19:111][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Mesh/rock_Auto1.uasset
+[2023.08.02-13.21.19:111][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/rock_bc] ([1] browsable assets)...
+[2023.08.02-13.21.19:117][250]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/rock_bc.rock_bc]
+[2023.08.02-13.21.19:117][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/rock_bc]
+[2023.08.02-13.21.19:117][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_bc" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_bc_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.21.19:131][250]LogSavePackage: Save=12.29ms
+[2023.08.02-13.21.19:131][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_bc_Auto120CFD9A343F1CF1A6AB228AC2124AD54.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_bc_Auto1.uasset'
+[2023.08.02-13.21.19:132][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_bc_Auto1.uasset
+[2023.08.02-13.21.19:132][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Texture/rock_n] ([1] browsable assets)...
+[2023.08.02-13.21.19:137][250]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Texture/rock_n.rock_n]
+[2023.08.02-13.21.19:137][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/Texture/rock_n]
+[2023.08.02-13.21.19:137][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_n" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_n_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.21.19:154][250]LogSavePackage: Save=14.80ms
+[2023.08.02-13.21.19:154][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_n_Auto12FB4992B495CEAB46647FEAEBD4CB3D7.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_n_Auto1.uasset'
+[2023.08.02-13.21.19:155][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Texture/rock_n_Auto1.uasset
+[2023.08.02-13.21.19:155][250]LogFileHelpers: Auto-saving content packages took 0.090
+[2023.08.02-13.32.58:116][426]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2023.08.02-13.33.00:992][752]LogRenderer: Reallocating scene render targets to support 1392x916 Format 10 NumSamples 1 (Frame:4).
+[2023.08.02-13.34.21:236][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.021
+[2023.08.02-13.34.21:238][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/MI_Rock] ([1] browsable assets)...
+[2023.08.02-13.34.21:246][183]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Material/MI_Rock.MI_Rock]
+[2023.08.02-13.34.21:246][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/MI_Rock]
+[2023.08.02-13.34.21:246][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Rock" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Rock_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.34.21:271][183]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rock, compiling. 
+[2023.08.02-13.34.22:074][183]TextureStreamingBuild: Display: Compiling optional shaders took 0.806 seconds.
+[2023.08.02-13.34.22:115][183]LogSavePackage: Save=11.86ms
+[2023.08.02-13.34.22:115][183]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_Rock_Auto2B989821F434A5978F17EC483271713CA.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Rock_Auto2.uasset'
+[2023.08.02-13.34.22:116][183]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Material/MI_Rock_Auto2.uasset
+[2023.08.02-13.34.22:116][183]LogFileHelpers: Auto-saving content packages took 0.879
+[2023.08.02-13.34.22:117][183]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.02-13.34.49:150][823]LogRenderer: Reallocating scene render targets to support 1432x916 Format 10 NumSamples 1 (Frame:1).
+[2023.08.02-13.36.12:718][423]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2023.08.02-13.36.25:856][947]LogSlate: Took 0.003420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.08.02-13.38.12:886][849]LogSlate: Took 0.003490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.02-13.39.51:719][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane6)
+[2023.08.02-13.39.52:482][710]LogEditorViewport: Clicking on Actor (LMB): BP_Rock_C (BP_Rock)
+[2023.08.02-13.39.54:713][962]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.39.54:754][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.39.54:754][962]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.39.54:757][962]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.39.55:077][962]LogPlayLevel: PlayLevel: Blueprint regeneration took 322 ms (1 blueprints)
+[2023.08.02-13.39.55:079][962]PIE: New page: PIEセッション: Main (2023/08/03 7:39:55)
+[2023.08.02-13.39.55:079][962]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.39.55:085][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005351s)
+[2023.08.02-13.39.55:085][962]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.39.55:085][962]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2023.08.02-13.39.55:085][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006222s)
+[2023.08.02-13.39.55:157][962]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.39.55:165][962]LogInit: FAudioDevice initialized.
+[2023.08.02-13.39.55:226][962]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.39.55:231][962]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.39.55
+[2023.08.02-13.39.55:233][962]LogWorld: Bringing up level for play took: 0.005498
+[2023.08.02-13.39.55:262][962]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2023.08.02-13.39.55:264][962]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.08.02-13.39.55:265][962]PIE: /Game/Map/UEDPIE_0_Main 1.112のプレイ イン エディタの開始時間
+[2023.08.02-13.39.55:265][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.02:406][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.02:450][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.14:403][917]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.40.16:078][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.02-13.40.16:234][ 64]LogSavePackage: Save=123.67ms
+[2023.08.02-13.40.16:235][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MainB62035FF4DE20474D983D8938DC6A766.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
+[2023.08.02-13.40.16:238][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
+[2023.08.02-13.40.16:269][ 64]LogFileHelpers: Saving map 'Main' took 0.235
+[2023.08.02-13.40.16:281][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/MI_Rock" FILE="../../../../../../UnrealProjects/DrAward/Content/Material/MI_Rock.uasset" SILENT=true
+[2023.08.02-13.40.16:293][ 64]LogSavePackage: Save=11.28ms
+[2023.08.02-13.40.16:293][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MI_Rock65ACAAA74D895BA771E73EA532A23833.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Material/MI_Rock.uasset'
+[2023.08.02-13.40.16:296][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Material/MI_Rock.uasset
+[2023.08.02-13.40.16:310][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/hole_wall" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/hole_wall.uasset" SILENT=true
+[2023.08.02-13.40.16:323][ 64]LogSavePackage: Save=11.04ms
+[2023.08.02-13.40.16:323][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/hole_wall91E571A24E6A3EE7F8E96D97698A7A96.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/hole_wall.uasset'
+[2023.08.02-13.40.16:326][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/hole_wall.uasset
+[2023.08.02-13.40.16:335][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh/rock" FILE="../../../../../../UnrealProjects/DrAward/Content/Mesh/rock.uasset" SILENT=true
+[2023.08.02-13.40.16:349][ 64]LogSavePackage: Save=12.79ms
+[2023.08.02-13.40.16:349][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rockFE47881F4FDAA709817C8781F0B1C0E6.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Mesh/rock.uasset'
+[2023.08.02-13.40.16:352][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Mesh/rock.uasset
+[2023.08.02-13.40.16:359][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_bc" FILE="../../../../../../UnrealProjects/DrAward/Content/Texture/rock_bc.uasset" SILENT=true
+[2023.08.02-13.40.16:507][ 64]LogSavePackage: Save=144.19ms
+[2023.08.02-13.40.16:507][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_bc62CBC64F44F7D0C127F8D0805FE44387.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Texture/rock_bc.uasset'
+[2023.08.02-13.40.16:510][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Texture/rock_bc.uasset
+[2023.08.02-13.40.16:517][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/rock_n" FILE="../../../../../../UnrealProjects/DrAward/Content/Texture/rock_n.uasset" SILENT=true
+[2023.08.02-13.40.16:688][ 64]LogSavePackage: Save=169.31ms
+[2023.08.02-13.40.16:688][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/rock_n9485D6DC4D55BBDA6A18B8BC64B92670.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Texture/rock_n.uasset'
+[2023.08.02-13.40.16:691][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Texture/rock_n.uasset
+[2023.08.02-13.40.16:702][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Rock" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset" SILENT=true
+[2023.08.02-13.40.16:726][ 64]LogSavePackage: Save=22.08ms
+[2023.08.02-13.40.16:726][ 64]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_Rock82AF31824D99598F8CAD829F30080240.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset'
+[2023.08.02-13.40.16:729][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset
+[2023.08.02-13.40.18:923][316]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.40.18:944][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.18:944][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.40.18:944][316]PIE: New page: PIEセッション: Main (2023/08/03 7:40:18)
+[2023.08.02-13.40.18:944][316]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.40.18:950][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005824s)
+[2023.08.02-13.40.18:951][316]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.40.18:951][316]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2023.08.02-13.40.18:951][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006678s)
+[2023.08.02-13.40.19:021][316]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.40.19:029][316]LogInit: FAudioDevice initialized.
+[2023.08.02-13.40.19:061][316]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.40.19:064][316]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.40.19
+[2023.08.02-13.40.19:065][316]LogWorld: Bringing up level for play took: 0.003639
+[2023.08.02-13.40.19:066][316]LogBlueprintUserMessages: [Main_C_1] Level
+[2023.08.02-13.40.19:066][316]PIE: /Game/Map/UEDPIE_0_Main 0.914のプレイ イン エディタの開始時間
+[2023.08.02-13.40.19:067][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.21:709][632]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.40.23:694][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.40.23:733][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.42.55:943][409]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.42.55:961][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.42.55:961][409]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.08.02-13.42.55:964][409]LogPlayLevel: [PlayLevel] Compiling BP_Rock before play...
+[2023.08.02-13.42.56:273][409]LogPlayLevel: PlayLevel: Blueprint regeneration took 311 ms (1 blueprints)
+[2023.08.02-13.42.56:273][409]PIE: New page: PIEセッション: Main (2023/08/03 7:42:56)
+[2023.08.02-13.42.56:273][409]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.42.56:279][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005522s)
+[2023.08.02-13.42.56:279][409]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.42.56:279][409]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2023.08.02-13.42.56:280][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006437s)
+[2023.08.02-13.42.56:349][409]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.42.56:357][409]LogInit: FAudioDevice initialized.
+[2023.08.02-13.42.56:398][409]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.42.56:402][409]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.42.56
+[2023.08.02-13.42.56:403][409]LogWorld: Bringing up level for play took: 0.003989
+[2023.08.02-13.42.56:405][409]LogBlueprintUserMessages: [Main_C_1] Level
+[2023.08.02-13.42.56:405][409]LogBlueprintUserMessages: [BP_Rock_352] Hello
+[2023.08.02-13.42.56:406][409]PIE: /Game/Map/UEDPIE_0_Main 0.253のプレイ イン エディタの開始時間
+[2023.08.02-13.42.56:407][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.00:740][924]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.00:796][924]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.08:028][763]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.43.08:049][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.08:049][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.43.08:049][763]PIE: New page: PIEセッション: Main (2023/08/03 7:43:08)
+[2023.08.02-13.43.08:049][763]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.43.08:055][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005467s)
+[2023.08.02-13.43.08:055][763]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.43.08:055][763]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2023.08.02-13.43.08:055][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006273s)
+[2023.08.02-13.43.08:122][763]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.43.08:129][763]LogInit: FAudioDevice initialized.
+[2023.08.02-13.43.08:173][763]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.43.08:177][763]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.43.08
+[2023.08.02-13.43.08:178][763]LogWorld: Bringing up level for play took: 0.003999
+[2023.08.02-13.43.08:180][763]LogBlueprintUserMessages: [Main_C_1] Level
+[2023.08.02-13.43.08:180][763]LogBlueprintUserMessages: [BP_Rock_352] Hello
+[2023.08.02-13.43.08:180][763]PIE: /Game/Map/UEDPIE_0_Main 0.028のプレイ イン エディタの開始時間
+[2023.08.02-13.43.08:181][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.12:347][258]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.43.14:031][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.43.14:091][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.44.17:987][ 62]BlueprintLog: New page: 関数に折りたたむ
+[2023.08.02-13.45.37:983][262]LogSlate: Took 0.003609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.08.02-13.51.19:988][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.02-13.51.20:124][377]LogSavePackage: Save=127.78ms
+[2023.08.02-13.51.20:124][377]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main_Auto311358A314E554102CB62E8999CC48A60.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap'
+[2023.08.02-13.51.20:125][377]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/Main_Auto3.umap
+[2023.08.02-13.51.20:127][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.160
+[2023.08.02-13.51.20:127][377]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2023.08.02-13.51.20:129][377]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_Rock] ([1] browsable assets)...
+[2023.08.02-13.51.20:137][377]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Rock.BP_Rock]
+[2023.08.02-13.51.20:137][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Rock]
+[2023.08.02-13.51.20:137][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Rock" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.51.20:163][377]LogSavePackage: Save=19.40ms
+[2023.08.02-13.51.20:163][377]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_Rock_Auto3D379EBE5462DDA3D7E8C2FA98E897453.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto3.uasset'
+[2023.08.02-13.51.20:164][377]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/BP_Rock_Auto3.uasset
+[2023.08.02-13.51.20:164][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MyFunctionLibrary] ([1] browsable assets)...
+[2023.08.02-13.51.20:164][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyFunctionLibrary]
+[2023.08.02-13.51.20:164][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyFunctionLibrary" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/MyFunctionLibrary_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.02-13.51.20:171][377]LogSavePackage: Save=4.39ms
+[2023.08.02-13.51.20:171][377]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MyFunctionLibrary_Auto33976F8C2475F9C20EC4584A09CEC3216.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/MyFunctionLibrary_Auto3.uasset'
+[2023.08.02-13.51.20:172][377]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/BP/MyFunctionLibrary_Auto3.uasset
+[2023.08.02-13.51.20:172][377]LogFileHelpers: Auto-saving content packages took 0.043
+[2023.08.02-13.54.36:823][194]BlueprintLog: New page: MyFunctionLibrary をコンパイル
+[2023.08.02-13.54.36:827][194]LogBlueprint: Error: [Compiler MyFunctionLibrary] Object  のタイプが不確定です。特定タイプを暗示するために  Cast To BP_Award  へ何かを接続してください            
+[2023.08.02-13.54.36:827][194]LogBlueprint: Error: [Compiler MyFunctionLibrary] ' Object ' ピンの現行値は無効です： Unsupported type Object ワイルドカード on pin Object
+[2023.08.02-13.54.36:850][194]LogBlueprint: Warning: [Compiler MyFunctionLibrary] [2649.88] Compile of MyFunctionLibrary failed. 2 Fatal Issue(s) 0 Warning(s) [in 26 ms] (/Game/BP/MyFunctionLibrary.MyFunctionLibrary)
+[2023.08.02-13.54.42:825][908]BlueprintLog: New page: MyFunctionLibrary をコンパイル
+[2023.08.02-13.56.08:570][ 61]BlueprintLog: New page: MyFunctionLibrary をコンパイル
+[2023.08.02-13.56.44:005][752]BlueprintLog: New page: BP_Skeleton をコンパイル
+[2023.08.02-13.56.45:510][884]BlueprintLog: New page: BP_Rock をコンパイル
+[2023.08.02-13.56.48:543][182]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.56.48:572][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.56.48:572][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.56.48:572][182]PIE: New page: PIEセッション: Main (2023/08/03 7:56:48)
+[2023.08.02-13.56.48:572][182]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.56.48:578][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005928s)
+[2023.08.02-13.56.48:578][182]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.56.48:579][182]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2023.08.02-13.56.48:579][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006862s)
+[2023.08.02-13.56.48:648][182]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.56.48:655][182]LogInit: FAudioDevice initialized.
+[2023.08.02-13.56.48:691][182]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.56.48:694][182]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.56.48
+[2023.08.02-13.56.48:695][182]LogWorld: Bringing up level for play took: 0.003674
+[2023.08.02-13.56.48:696][182]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.08.02-13.56.48:696][182]PIE: /Game/Map/UEDPIE_0_Main 0.544のプレイ イン エディタの開始時間
+[2023.08.02-13.56.48:696][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.56.51:390][504]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.56.53:232][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.56.53:279][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.57.02:355][798]LogEditorViewport: Clicking on Actor (LMB): BP_Rock_C (BP_Rock)
+[2023.08.02-13.57.08:662][543]LogTemp: Repeating last play command: 選択ビューポート
+[2023.08.02-13.57.08:683][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.57.08:683][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.02-13.57.08:683][543]PIE: New page: PIEセッション: Main (2023/08/03 7:57:08)
+[2023.08.02-13.57.08:683][543]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.08.02-13.57.08:689][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005530s)
+[2023.08.02-13.57.08:689][543]LogAIModule: Creating AISystem for world Main
+[2023.08.02-13.57.08:690][543]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2023.08.02-13.57.08:690][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.006359s)
+[2023.08.02-13.57.08:757][543]LogInit: XAudio2 using 'ライン (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 24 bits per sample (channel mask 0x3)
+[2023.08.02-13.57.08:764][543]LogInit: FAudioDevice initialized.
+[2023.08.02-13.57.08:794][543]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2023.08.02-13.57.08:798][543]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.02-22.57.08
+[2023.08.02-13.57.08:798][543]LogWorld: Bringing up level for play took: 0.003575
+[2023.08.02-13.57.08:800][543]LogBlueprintUserMessages: [Main_C_0] Level
+[2023.08.02-13.57.08:800][543]PIE: /Game/Map/UEDPIE_0_Main 0.647のプレイ イン エディタの開始時間
+[2023.08.02-13.57.08:800][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.57.12:428][977]LogBlueprintUserMessages: [BP_Award_C_0] damage
+[2023.08.02-13.57.17:137][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.57.17:179][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2023.08.02-13.57.36:862][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box4)
+[2023.08.02-13.57.38:092][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane6)
+[2023.08.02-13.57.40:986][780]LogEditorViewport: Clicking on Actor (LMB): BP_Rock_C (BP_Rock)
+[2023.08.02-13.57.42:468][954]Cmd: DELETE
+[2023.08.02-13.57.42:468][954]Cmd: ACTOR DELETE
+[2023.08.02-13.57.42:471][954]LogEditorActor: Deleted Actor: BP_Rock_C
+[2023.08.02-13.57.42:496][954]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2023.08.02-13.57.45:044][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Main" FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.02-13.57.45:196][250]LogSavePackage: Save=125.35ms
+[2023.08.02-13.57.45:196][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/Main379A2FE048AD306878B761A141661C15.tmp' to '../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap'
+[2023.08.02-13.57.45:200][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap
+[2023.08.02-13.57.45:230][250]LogFileHelpers: Saving map 'Main' took 0.233
+[2023.08.02-13.57.45:239][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Skeleton" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Skeleton.uasset" SILENT=true
+[2023.08.02-13.57.45:278][250]LogSavePackage: Save=31.77ms
+[2023.08.02-13.57.45:278][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_SkeletonE9A0C7D14CBB71620AF087A5F2F0C595.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Skeleton.uasset'
+[2023.08.02-13.57.45:282][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Skeleton.uasset
+[2023.08.02-13.57.45:291][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Rock" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset" SILENT=true
+[2023.08.02-13.57.45:318][250]LogSavePackage: Save=20.41ms
+[2023.08.02-13.57.45:318][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/BP_RockA0070ED649AE70E30E735BB6B8446BE1.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset'
+[2023.08.02-13.57.45:321][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/BP_Rock.uasset
+[2023.08.02-13.57.45:324][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyFunctionLibrary" FILE="../../../../../../UnrealProjects/DrAward/Content/BP/MyFunctionLibrary.uasset" SILENT=true
+[2023.08.02-13.57.45:333][250]LogSavePackage: Save=7.73ms
+[2023.08.02-13.57.45:333][250]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/MyFunctionLibrary49DBE1DB4369931896CCF789272D54B9.tmp' to '../../../../../../UnrealProjects/DrAward/Content/BP/MyFunctionLibrary.uasset'
+[2023.08.02-13.57.45:336][250]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/BP/MyFunctionLibrary.uasset
