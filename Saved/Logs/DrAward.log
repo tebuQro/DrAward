@@ -1,4 +1,4 @@
-﻿Log file open, 09/24/23 15:09:15
+﻿Log file open, 09/27/23 22:06:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrAward
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1606269405) SRandInit(1606269405).
+LogInit: Display: RandInit(1711337216) SRandInit(1711337216).
 LogTaskGraph: Started task graph with 5 named threads and 38 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.582360
+LogStats: Stats thread started at 0.591345
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,227 +113,216 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.09.24-06.09.15:897][  0]LogInit: Selected Device Profile: [Windows]
-[2023.09.24-06.09.15:897][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.09.24-06.09.15:910][  0]LogInit: Computer: DESKTOP-DFBAQQ3
-[2023.09.24-06.09.15:910][  0]LogInit: User: 81901
-[2023.09.24-06.09.15:910][  0]LogInit: CPU Page size=4096, Cores=12
-[2023.09.24-06.09.15:910][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.09.24-06.09.15:911][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2023.09.24-06.09.15:911][  0]LogMemory: Platform Memory Stats for Windows
-[2023.09.24-06.09.15:911][  0]LogMemory: Process Physical Memory: 288.20 MB used, 288.20 MB peak
-[2023.09.24-06.09.15:911][  0]LogMemory: Process Virtual Memory: 285.42 MB used, 285.42 MB peak
-[2023.09.24-06.09.15:911][  0]LogMemory: Physical Memory: 11048.15 MB used,  21643.91 MB free, 32692.06 MB total
-[2023.09.24-06.09.15:911][  0]LogMemory: Virtual Memory: 4825.96 MB used,  21643.91 MB free, 134217728.00 MB total
-[2023.09.24-06.09.16:032][  0]LogInit: Using OS detected language (ja-JP).
-[2023.09.24-06.09.16:032][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.09.24-06.09.16:034][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.09.24-06.09.16:474][  0]LogD3D11RHI: D3D11 adapters:
-[2023.09.24-06.09.16:595][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
-[2023.09.24-06.09.16:596][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.09.24-06.09.16:598][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.09.24-06.09.16:598][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.09.24-06.09.16:598][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.09.24-06.09.16:608][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.09.24-06.09.16:608][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
-[2023.09.24-06.09.16:608][  0]LogWindows: EnumDisplayDevices:
-[2023.09.24-06.09.16:609][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
-[2023.09.24-06.09.16:609][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
-[2023.09.24-06.09.16:609][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.09.24-06.09.16:609][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
-[2023.09.24-06.09.16:609][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.09.24-06.09.16:609][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
-[2023.09.24-06.09.16:609][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.09.24-06.09.16:609][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.09.24-06.09.16:609][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.09.24-06.09.16:683][  0]LogD3D11RHI: Async texture creation enabled
-[2023.09.24-06.09.16:698][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.09.24-06.09.16:701][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
-[2023.09.24-06.09.16:701][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/11900/).
-[2023.09.24-06.09.16:701][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/BC8E8ECB4E76CEA00D3148BBE3787924/'.
-[2023.09.24-06.09.16:701][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.09.24-06.09.17:539][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.09.24-06.09.17:571][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.09.24-06.09.17:605][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.09.24-06.09.17:638][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.09.24-06.09.17:672][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.09.24-06.09.17:709][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.09.24-06.09.17:742][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.09.24-06.09.17:774][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.09.24-06.09.17:801][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.09.24-06.09.17:833][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.09.24-06.09.17:865][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.09.24-06.09.17:897][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.09.24-06.09.17:928][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.09.24-06.09.17:961][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.09.24-06.09.17:992][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.09.24-06.09.18:057][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.09.24-06.09.18:057][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.09.24-06.09.18:080][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.09.24-06.09.18:147][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.09.24-06.09.18:166][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.09.24-06.09.18:199][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.09.24-06.09.18:232][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.09.24-06.09.18:265][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.09.24-06.09.18:297][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.09.24-06.09.18:297][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.09.24-06.09.18:589][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.09.24-06.09.18:655][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.09.24-06.09.18:656][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.09.24-06.09.18:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.09.24-06.09.18:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.09.24-06.09.18:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.09.24-06.09.18:656][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.09.24-06.09.18:672][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.09.24-06.09.18:685][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.09.24-06.09.18:694][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.09.24-06.09.18:695][  0]LogSlate: Using Freetype 2.6.0
-[2023.09.24-06.09.18:695][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.09.24-06.09.18:695][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.09.24-06.09.18:931][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2023.09.24-06.09.19:016][  0]LogInit: Selected Device Profile: [Windows]
-[2023.09.24-06.09.19:122][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.09.24-06.09.19:311][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.09.24-06.09.19:337][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.09.24-06.09.19:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.09.24-06.09.19:337][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.09.24-06.09.19:337][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.09.24-06.09.19:337][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.09.24-06.09.19:596][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
-[2023.09.24-06.09.19:781][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.064977 seconds
-[2023.09.24-06.09.19:788][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2023.09.24-06.09.19:788][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2023.09.24-06.09.19:788][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.09.24-06.09.19:820][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.09.24-06.09.21:598][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.09.24-06.09.21:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.09.24-06.09.22:065][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.09.24-06.09.22:330][  0]SourceControl: ソースコントロールは無効です
-[2023.09.24-06.09.22:330][  0]SourceControl: ソースコントロールは無効です
-[2023.09.24-06.09.22:361][  0]SourceControl: ソースコントロールは無効です
-[2023.09.24-06.09.22:391][  0]SourceControl: ソースコントロールは無効です
-[2023.09.24-06.09.22:761][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.09.24-06.09.22:919][  0]LogOcInput: OculusInput pre-init called
-[2023.09.24-06.09.23:087][  0]LogEngine: Initializing Engine...
-[2023.09.24-06.09.23:088][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.09.24-06.09.23:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.09.24-06.09.23:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.09.24-06.09.23:323][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.09.24-06.09.23:382][  0]LogInit: XAudio2 using 'Out 1-2 (MOTU M Series)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.09.24-06.09.23:399][  0]LogInit: FAudioDevice initialized.
-[2023.09.24-06.09.23:490][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.09.24-06.09.23:501][  0]LogInit: Texture streaming: Enabled
-[2023.09.24-06.09.23:574][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.09.24-06.09.23:715][  0]LogInit: Transaction tracking system initialized
-[2023.09.24-06.09.23:918][  0]BlueprintLog: New page: エディタの読み込み
-[2023.09.24-06.09.24:463][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.09.24-06.09.24:894][  0]LogConsoleResponse: Display: 
-[2023.09.24-06.09.25:029][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.09.24-06.09.25:029][  0]LogCook: Display: Mobile HDR setting 1
-[2023.09.24-06.09.25:029][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.09.24-06.09.25:691][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
-[2023.09.24-06.09.25:691][  0]SourceControl: ソースコントロールは無効です
-[2023.09.24-06.09.25:691][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.09.24-06.09.25:695][  0]LightingResults: New page: ライティングのビルド
-[2023.09.24-06.09.25:718][  0]MapCheck: New page: マップをチェック
-[2023.09.24-06.09.25:718][  0]LightingResults: New page: <何も選択されていません>
-[2023.09.24-06.09.26:112][  0]LogAIModule: Creating AISystem for world Main
-[2023.09.24-06.09.26:115][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage1) is flushing async loading
-[2023.09.24-06.09.26:646][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage2) is flushing async loading
-[2023.09.24-06.09.26:667][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage3) is flushing async loading
-[2023.09.24-06.09.26:689][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.09.24-06.09.26:714][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.09.24-06.09.26:756][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 41.985ミリ秒かかりました。
-[2023.09.24-06.09.26:756][  0]LogFileHelpers: Loading map 'Main' took 1.066
-[2023.09.24-06.09.26:818][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.09.24-06.09.26:923][  0]LogCollectionManager: Loaded 0 collections in 0.000835 seconds
-[2023.09.24-06.09.26:993][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
-[2023.09.24-06.09.26:993][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
-[2023.09.24-06.09.26:993][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
-[2023.09.24-06.09.26:993][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2023.09.24-06.09.27:004][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2386 classes and 500 folders.
-[2023.09.24-06.09.27:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2023.09.24-06.09.27:248][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2023.09.24-06.09.27:278][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2023.09.24-06.09.27:318][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 2 classes and 3 folders.
-[2023.09.24-06.09.27:417][  0]LogSlate: Took 0.000415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.09.24-06.09.27:421][  0]LogSlate: Took 0.003124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.09.24-06.09.27:422][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.09.24-06.09.27:431][  0]LogSlate: Took 0.002912 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.09.24-06.09.27:513][  0]LogRenderer: Reallocating scene render targets to support 1204x568 Format 10 NumSamples 1 (Frame:1).
-[2023.09.24-06.09.27:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2023.09.24-06.09.27:685][  0]LogLoad: (Engine Initialization) Total time: 13.95 seconds
-[2023.09.24-06.09.27:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.09.24-06.09.27:685][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.09.24-06.09.27:712][  0]LogAssetRegistry: Asset discovery search completed in 8.8043 seconds
-[2023.09.24-06.09.27:714][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.09.24-06.09.27:714][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2023.09.24-06.09.27:716][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.09.24-06.09.27:776][  0]LogSlate: Took 0.002110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.09.24-06.09.27:878][  3]LogScript: Warning: Accessed None trying to read property Is Clear Instance
+[2023.09.27-13.06.26:390][  0]LogInit: Selected Device Profile: [Windows]
+[2023.09.27-13.06.26:390][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.09.27-13.06.26:402][  0]LogInit: Computer: DESKTOP-DFBAQQ3
+[2023.09.27-13.06.26:402][  0]LogInit: User: 81901
+[2023.09.27-13.06.26:402][  0]LogInit: CPU Page size=4096, Cores=12
+[2023.09.27-13.06.26:402][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.09.27-13.06.26:402][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.09.27-13.06.26:402][  0]LogMemory: Platform Memory Stats for Windows
+[2023.09.27-13.06.26:402][  0]LogMemory: Process Physical Memory: 288.20 MB used, 288.20 MB peak
+[2023.09.27-13.06.26:402][  0]LogMemory: Process Virtual Memory: 285.37 MB used, 285.37 MB peak
+[2023.09.27-13.06.26:402][  0]LogMemory: Physical Memory: 10554.04 MB used,  22138.02 MB free, 32692.06 MB total
+[2023.09.27-13.06.26:402][  0]LogMemory: Virtual Memory: 4825.96 MB used,  22138.02 MB free, 134217728.00 MB total
+[2023.09.27-13.06.26:529][  0]LogInit: Using OS detected language (ja-JP).
+[2023.09.27-13.06.26:529][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.09.27-13.06.26:531][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.09.27-13.06.26:947][  0]LogD3D11RHI: D3D11 adapters:
+[2023.09.27-13.06.27:086][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
+[2023.09.27-13.06.27:086][  0]LogD3D11RHI:       8031/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.09.27-13.06.27:089][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.09.27-13.06.27:089][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.09.27-13.06.27:089][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.09.27-13.06.27:098][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.09.27-13.06.27:098][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2023.09.27-13.06.27:098][  0]LogWindows: EnumDisplayDevices:
+[2023.09.27-13.06.27:098][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
+[2023.09.27-13.06.27:098][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
+[2023.09.27-13.06.27:099][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.09.27-13.06.27:099][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2023.09.27-13.06.27:099][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.09.27-13.06.27:099][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
+[2023.09.27-13.06.27:099][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.09.27-13.06.27:099][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.09.27-13.06.27:099][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.09.27-13.06.27:166][  0]LogD3D11RHI: Async texture creation enabled
+[2023.09.27-13.06.27:181][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.09.27-13.06.27:183][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061080).
+[2023.09.27-13.06.27:184][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UnrealProjects/DrAward/Intermediate/Shaders/WorkingDirectory/13968/).
+[2023.09.27-13.06.27:184][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81901/AppData/Local/Temp/UnrealShaderWorkingDir/D5F25CD34C2D6287E1696189C2712CC5/'.
+[2023.09.27-13.06.27:184][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.09.27-13.06.28:026][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.09.27-13.06.28:062][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.09.27-13.06.28:096][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.09.27-13.06.28:129][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.09.27-13.06.28:163][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.09.27-13.06.28:195][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.09.27-13.06.28:228][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.09.27-13.06.28:261][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.09.27-13.06.28:288][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.09.27-13.06.28:320][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.09.27-13.06.28:353][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.09.27-13.06.28:388][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.09.27-13.06.28:419][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.09.27-13.06.28:453][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.09.27-13.06.28:486][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.09.27-13.06.28:553][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.09.27-13.06.28:553][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.09.27-13.06.28:577][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.09.27-13.06.28:646][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.09.27-13.06.28:665][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.09.27-13.06.28:698][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.09.27-13.06.28:730][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.09.27-13.06.28:762][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.09.27-13.06.28:794][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.09.27-13.06.28:794][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.09.27-13.06.29:078][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.09.27-13.06.29:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.09.27-13.06.29:160][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.09.27-13.06.29:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81901/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.09.27-13.06.29:181][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.09.27-13.06.29:181][  0]LogSlate: Using Freetype 2.6.0
+[2023.09.27-13.06.29:182][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.09.27-13.06.29:182][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.09.27-13.06.29:401][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2023.09.27-13.06.29:490][  0]LogInit: Selected Device Profile: [Windows]
+[2023.09.27-13.06.29:590][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.09.27-13.06.29:773][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.09.27-13.06.29:797][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.09.27-13.06.29:797][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.09.27-13.06.29:797][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.09.27-13.06.29:797][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.09.27-13.06.29:797][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.09.27-13.06.30:025][  0]LogNetVersion: DrAward , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 550400037)
+[2023.09.27-13.06.30:193][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.059054 seconds
+[2023.09.27-13.06.30:198][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.09.27-13.06.30:198][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2023.09.27-13.06.30:198][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.09.27-13.06.30:229][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.09.27-13.06.31:900][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.09.27-13.06.31:928][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.09.27-13.06.32:333][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.09.27-13.06.32:572][  0]SourceControl: ソースコントロールは無効です
+[2023.09.27-13.06.32:572][  0]SourceControl: ソースコントロールは無効です
+[2023.09.27-13.06.32:601][  0]SourceControl: ソースコントロールは無効です
+[2023.09.27-13.06.32:629][  0]SourceControl: ソースコントロールは無効です
+[2023.09.27-13.06.32:986][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.09.27-13.06.33:133][  0]LogOcInput: OculusInput pre-init called
+[2023.09.27-13.06.33:293][  0]LogEngine: Initializing Engine...
+[2023.09.27-13.06.33:296][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.09.27-13.06.33:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.09.27-13.06.33:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.09.27-13.06.33:520][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.09.27-13.06.33:578][  0]LogInit: XAudio2 using 'Out 1-2 (MOTU M Series)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.09.27-13.06.33:594][  0]LogInit: FAudioDevice initialized.
+[2023.09.27-13.06.33:684][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/81901/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.09.27-13.06.33:693][  0]LogInit: Texture streaming: Enabled
+[2023.09.27-13.06.33:760][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.09.27-13.06.33:894][  0]LogInit: Transaction tracking system initialized
+[2023.09.27-13.06.34:067][  0]BlueprintLog: New page: エディタの読み込み
+[2023.09.27-13.06.34:566][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.09.27-13.06.34:975][  0]LogConsoleResponse: Display: 
+[2023.09.27-13.06.35:093][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.09.27-13.06.35:093][  0]LogCook: Display: Mobile HDR setting 1
+[2023.09.27-13.06.35:093][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.09.27-13.06.35:711][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/' took 0.01s
+[2023.09.27-13.06.35:712][  0]SourceControl: ソースコントロールは無効です
+[2023.09.27-13.06.35:712][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.09.27-13.06.35:717][  0]LightingResults: New page: ライティングのビルド
+[2023.09.27-13.06.35:741][  0]MapCheck: New page: マップをチェック
+[2023.09.27-13.06.35:741][  0]LightingResults: New page: <何も選択されていません>
+[2023.09.27-13.06.36:179][  0]LogAIModule: Creating AISystem for world Main
+[2023.09.27-13.06.36:183][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage1) is flushing async loading
+[2023.09.27-13.06.36:677][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage2) is flushing async loading
+[2023.09.27-13.06.36:699][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Test/Stage3) is flushing async loading
+[2023.09.27-13.06.36:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.27-13.06.36:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.27-13.06.36:790][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 42.199ミリ秒かかりました。
+[2023.09.27-13.06.36:790][  0]LogFileHelpers: Loading map 'Main' took 1.078
+[2023.09.27-13.06.36:872][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.09.27-13.06.36:993][  0]LogCollectionManager: Loaded 0 collections in 0.000824 seconds
+[2023.09.27-13.06.37:065][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Saved/Collections/' took 0.01s
+[2023.09.27-13.06.37:065][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Developers/81901/Collections/' took 0.01s
+[2023.09.27-13.06.37:065][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/DrAward/Content/Collections/' took 0.01s
+[2023.09.27-13.06.37:065][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.09.27-13.06.37:075][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2386 classes and 500 folders.
+[2023.09.27-13.06.37:113][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2023.09.27-13.06.37:322][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.09.27-13.06.37:354][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.09.27-13.06.37:397][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2023.09.27-13.06.37:512][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.27-13.06.37:515][  0]LogSlate: Took 0.002164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.09.27-13.06.37:516][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.27-13.06.37:521][  0]LogSlate: Took 0.002240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.09.27-13.06.37:605][  0]LogRenderer: Reallocating scene render targets to support 1204x568 Format 10 NumSamples 1 (Frame:1).
+[2023.09.27-13.06.37:779][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2023.09.27-13.06.37:780][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
+[2023.09.27-13.06.37:780][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.09.27-13.06.37:780][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.09.27-13.06.37:809][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.09.27-13.06.37:864][  0]LogSlate: Took 0.002226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.09.27-13.06.37:897][  1]LogAssetRegistry: Asset discovery search completed in 8.5191 seconds
+[2023.09.27-13.06.37:899][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.09.27-13.06.37:899][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000140 seconds (updated 0 objects)
+[2023.09.27-13.06.37:945][  3]LogScript: Warning: Accessed None trying to read property Is Clear Instance
 	BPAnim_Award_C /Engine/Transient.World_8:PersistentLevel.BP_Award_C_0.CharacterMesh0.BPAnim_Award_C_0
 	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
-[2023.09.24-06.09.27:878][  3]LogScript: Warning: Accessed None trying to read property Is Clear Instance
+[2023.09.27-13.06.37:945][  3]LogScript: Warning: Accessed None trying to read property Is Clear Instance
 	BPAnim_Award_C /Engine/Transient.World_8:PersistentLevel.BP_Award_C_0.CharacterMesh0.BPAnim_Award_C_0
 	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
-[2023.09.24-06.09.28:721][ 89]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.09.24-06.09.43:712][348]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
-	BPAnim_Award_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BPAnim_Award_C_1
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:023F
-[2023.09.24-06.09.43:712][348]LogScript: Warning: Accessed None trying to read property Is Clear Instance
-	BPAnim_Award_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BPAnim_Award_C_1
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
-[2023.09.24-06.09.43:712][348]LogScript: Warning: Accessed None trying to read property Is Clear Instance
-	BPAnim_Award_C /Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BPAnim_Award_C_1
-	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
-[2023.09.24-06.09.50:232][101]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.09.24-06.09.50:543][101]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
-[2023.09.24-06.09.51:106][101]LogSlate: Took 0.001728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.09.24-06.14.03:594][317]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/W_Score.W_Score:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_15:W_Score_C_4.WidgetTree_6.HorizontalBox_0
-[2023.09.24-06.14.03:594][317]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/W_Score.W_Score:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_15:W_Score_C_5.WidgetTree_7.HorizontalBox_0
-[2023.09.24-06.14.03:594][317]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/W_Score.W_Score:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_15:W_Score_C_6.WidgetTree_8.HorizontalBox_0
-[2023.09.24-06.14.03:594][317]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/W_Score.W_Score:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.ScoreStage).  Import failed...
-[2023.09.24-06.14.03:594][317]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
-[2023.09.24-06.14.14:310][362]LogEditorTransaction: Undo ウィジット名を変更
-[2023.09.24-06.15.23:098][258]BlueprintLog: New page: W_Score をコンパイル
-[2023.09.24-06.17.28:878][739]BlueprintLog: New page: W_ScoreBoard をコンパイル
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_Loading.SKEL_W_Loading_C:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_Loading.W_Loading_C:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_ScoreBoard.W_ScoreBoard:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_17:W_Start_C_0.WidgetTree_24.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_17:W_Start_C_1.WidgetTree_25.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:W_ScoreBoard_C_3.WidgetTree_17.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_Start.SKEL_W_Start_C:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_Start.W_Start:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:W_ScoreBoard_C_4.WidgetTree_18.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:W_ScoreBoard_C_5.WidgetTree_19.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_W_ScoreBoard_C_18:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_ScoreBoard.W_ScoreBoard_C:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/W_Loading.W_Loading:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/W_Start.W_Start_C:WidgetTree.CanvasPanel_0
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/UI/W_ScoreBoard.W_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_3.WidgetTree_17.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_4.WidgetTree_18.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_5.WidgetTree_19.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/UI/W_ScoreBoard.W_ScoreBoard_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/UI/W_Start.W_Start:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/UI/W_Start.SKEL_W_Start_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Game/UI/W_Start.W_Start_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_17:W_Start_C_0.WidgetTree_24.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4 or CanvasPanelSlot /Engine/Transient.World_17:W_Start_C_1.WidgetTree_25.CanvasPanel_0.CanvasPanelSlot_4
-[2023.09.24-06.18.42:592][487]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_13:W_ScoreBoard_C_1.WidgetTree_22.CanvasPanel_0.CanvasPanelSlot_4) from referencer (Button /Engine/UMG/Editor/Transient.StartBtn).  Import failed...
-[2023.09.24-06.18.42:592][487]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_4''
-[2023.09.24-06.20.33:750][394]BlueprintLog: New page: W_Start をコンパイル
-[2023.09.24-06.20.36:095][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_ScoreBoard" FILE="../../../../../../UnrealProjects/DrAward/Content/UI/W_ScoreBoard.uasset" SILENT=true
-[2023.09.24-06.20.36:136][662]LogSavePackage: Save=17.40ms
-[2023.09.24-06.20.36:136][662]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/W_ScoreBoard87184B414BA387B6CC22CD94A3D0C670.tmp' to '../../../../../../UnrealProjects/DrAward/Content/UI/W_ScoreBoard.uasset'
-[2023.09.24-06.20.36:139][662]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/UI/W_ScoreBoard.uasset
-[2023.09.24-06.20.36:143][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_Score" FILE="../../../../../../UnrealProjects/DrAward/Content/UI/W_Score.uasset" SILENT=true
-[2023.09.24-06.20.36:155][662]LogSavePackage: Save=9.92ms
-[2023.09.24-06.20.36:155][662]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/W_ScoreC07CD9744410F2C1D30558BF889CA87F.tmp' to '../../../../../../UnrealProjects/DrAward/Content/UI/W_Score.uasset'
-[2023.09.24-06.20.36:157][662]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/UI/W_Score.uasset
-[2023.09.24-06.20.36:162][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_Start" FILE="../../../../../../UnrealProjects/DrAward/Content/UI/W_Start.uasset" SILENT=true
-[2023.09.24-06.20.36:195][662]LogSavePackage: Save=23.43ms
-[2023.09.24-06.20.36:195][662]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/W_StartBA84E0034AA5B0AC38B9AEA271C95E0E.tmp' to '../../../../../../UnrealProjects/DrAward/Content/UI/W_Start.uasset'
-[2023.09.24-06.20.36:198][662]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/UI/W_Start.uasset
+[2023.09.27-13.06.38:820][ 96]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.09.27-13.08.29:098][223]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.09.27-13.08.29:168][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/bgm.wav)
+[2023.09.27-13.08.29:216][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ bgm をビルド中...
+[2023.09.27-13.08.30:108][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/bgm.bgm.
+[2023.09.27-13.08.30:117][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/button_on.wav)
+[2023.09.27-13.08.30:120][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ button_on をビルド中...
+[2023.09.27-13.08.30:136][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/button_on.button_on.
+[2023.09.27-13.08.30:145][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/button_on_start.wav)
+[2023.09.27-13.08.30:147][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ button_on_start をビルド中...
+[2023.09.27-13.08.30:171][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/button_on_start.button_on_start.
+[2023.09.27-13.08.30:178][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/button_ov.wav)
+[2023.09.27-13.08.30:180][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ button_ov をビルド中...
+[2023.09.27-13.08.30:186][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/button_ov.button_ov.
+[2023.09.27-13.08.30:191][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/death_voice.wav)
+[2023.09.27-13.08.30:194][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ death_voice をビルド中...
+[2023.09.27-13.08.30:201][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/death_voice.death_voice.
+[2023.09.27-13.08.30:218][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/fire.wav)
+[2023.09.27-13.08.30:221][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ fire をビルド中...
+[2023.09.27-13.08.30:283][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/fire.fire.
+[2023.09.27-13.08.30:291][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/footstep-high.wav)
+[2023.09.27-13.08.30:294][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ footstep-high をビルド中...
+[2023.09.27-13.08.30:305][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/footstep-high.footstep-high.
+[2023.09.27-13.08.30:313][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/footstep-low.wav)
+[2023.09.27-13.08.30:315][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ footstep-low をビルド中...
+[2023.09.27-13.08.30:328][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/footstep-low.footstep-low.
+[2023.09.27-13.08.30:355][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/game_clear.wav)
+[2023.09.27-13.08.30:362][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ game_clear をビルド中...
+[2023.09.27-13.08.30:454][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/game_clear.game_clear.
+[2023.09.27-13.08.30:481][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/game_over.wav)
+[2023.09.27-13.08.30:489][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ game_over をビルド中...
+[2023.09.27-13.08.30:617][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/game_over.game_over.
+[2023.09.27-13.08.30:624][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/item_pickup.wav)
+[2023.09.27-13.08.30:626][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ item_pickup をビルド中...
+[2023.09.27-13.08.30:653][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/item_pickup.item_pickup.
+[2023.09.27-13.08.30:670][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/kirakira.wav)
+[2023.09.27-13.08.30:674][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ kirakira をビルド中...
+[2023.09.27-13.08.30:751][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/kirakira.kirakira.
+[2023.09.27-13.08.30:768][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/rock.wav)
+[2023.09.27-13.08.30:775][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ rock をビルド中...
+[2023.09.27-13.08.30:875][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/rock.rock.
+[2023.09.27-13.08.30:903][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/stair.wav)
+[2023.09.27-13.08.30:924][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ stair をビルド中...
+[2023.09.27-13.08.31:293][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/stair.stair.
+[2023.09.27-13.08.31:363][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/start.wav)
+[2023.09.27-13.08.31:439][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ start をビルド中...
+[2023.09.27-13.08.32:847][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/start.start.
+[2023.09.27-13.08.32:867][223]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/81901/Desktop/DrAward_Pack/sozai/Audio/trap_arrow.wav)
+[2023.09.27-13.08.32:870][223]LogAudioDerivedData: Display: 圧縮オーディオ フォーマット OGG ウェーブ trap_arrow をビルド中...
+[2023.09.27-13.08.32:883][223]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/trap_arrow.trap_arrow.
