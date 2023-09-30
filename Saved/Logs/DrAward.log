@@ -762,3 +762,32 @@ LogInit: Object subsystem initialized
 [2023.09.30-07.09.01:164][ 85]LogSavePackage: Save=27.93ms
 [2023.09.30-07.09.01:164][ 85]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/W_Tutorial034135304045CFDD2D3E779475865F82.tmp' to '../../../../../../UnrealProjects/DrAward/Content/UI/W_Tutorial.uasset'
 [2023.09.30-07.09.01:167][ 85]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Content/UI/W_Tutorial.uasset
+[2023.09.30-07.09.32:393][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.09.30-07.09.43:370][837]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2023.09.30-07.09.43:370][837]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-07.09.43:370][837]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.17
+[2023.09.30-07.09.43:370][837]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.09.30-07.09.43:370][837]LogTemp: BranchPath = DESKTOP-DFBAQQ3/D/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-DFBAQQ3/D/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.09.30-07.09.43:387][839]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\81901\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.09.30-07.11.49:185][711]LogScript: Warning: Accessed None trying to read property Is Clear Instance
+	BPAnim_Award_C /Engine/Transient.World_11:PersistentLevel.BP_Award_C_0.CharacterMesh0.BPAnim_Award_C_3
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:00B1
+[2023.09.30-07.11.49:185][711]LogScript: Warning: Accessed None trying to read property Is Clear Instance
+	BPAnim_Award_C /Engine/Transient.World_11:PersistentLevel.BP_Award_C_0.CharacterMesh0.BPAnim_Award_C_3
+	Function /Game/Animation/BPAnim_Award.BPAnim_Award_C:ExecuteUbergraph_BPAnim_Award:0110
+[2023.09.30-07.11.57:022][639]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2023.09.30-07.11.59:622][926]LogAIModule: Creating AISystem for world Start
+[2023.09.30-07.11.59:653][926]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/DrAward/Content/Map/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.09.30-07.11.59:654][926]LightingResults: New page: ライティングのビルド
+[2023.09.30-07.11.59:654][926]LoadErrors: New page: マップをロード中: Start.umap
+[2023.09.30-07.11.59:659][926]MapCheck: New page: マップをチェック
+[2023.09.30-07.11.59:659][926]LightingResults: New page: <何も選択されていません>
+[2023.09.30-07.11.59:743][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-07.11.59:799][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-07.11.59:849][926]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 50.051ミリ秒かかりました。
+[2023.09.30-07.11.59:850][926]LogFileHelpers: Loading map 'Start' took 0.198
+[2023.09.30-07.12.08:752][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Start" FILE="../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2023.09.30-07.12.08:796][967]LogSavePackage: Save=33.26ms
+[2023.09.30-07.12.08:797][967]LogSavePackage: Moving '../../../../../../UnrealProjects/DrAward/Saved/UEDPCStart55D46CDC46B2F9A7A127F28E34007A9E.tmp' to '../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap'
+[2023.09.30-07.12.08:797][967]LogSavePackage: Display: Finished SavePackage ../../../../../../UnrealProjects/DrAward/Saved/Autosaves/Game/Map/UEDPCStart.umap
+[2023.09.30-07.12.08:805][967]LogEditorTransaction: Undo Spawn Play From Here Start
